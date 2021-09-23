@@ -1,0 +1,53 @@
+/*police*/
+@font-face {
+    font-family: raleway;
+    src: url(bureau/thibautlenoir_2_20092021);
+}
+
+/*couleur fond de page , couleur police,marge*/
+body {
+   
+    background-color: rgb(192, 79, 79);
+    color: black;
+}
+/*header début*/
+header {
+    border:3px black solid;
+    width:1440px;
+    margin:auto;
+   }
+.conteneur {
+    display: flex;
+    width:1440px;
+}
+.element1 {
+    display:flex;
+    border:3px yellow solid;
+    width:229px;
+    height:127px; 
+}
+
+.element2 {
+    border:3px red solid;
+    width:1211px;
+    display:flex;
+    justify-content:flex-end;    
+}
+ul {
+    width:526px;
+    border:3px green solid;
+    display:flex;
+    list-style-type: none;
+    justify-content:space-around;
+}
+#logo{
+    width:10em; 
+}
+h1{
+    border:3px rgb(216, 44, 193) solid;
+}
+h2{
+    border:3px white solid;
+}
+
+
