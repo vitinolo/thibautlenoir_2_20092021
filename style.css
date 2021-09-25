@@ -18,6 +18,7 @@ header {
 .contener {
     display: flex;
     width:1440px;
+    background-color: white;
 }
 .element1 {
     display:flex;
@@ -34,10 +35,10 @@ header {
 /*navigation*/
 ul {
     width:526px;
-    border:3px green solid;
     display:flex;
     list-style-type: none;
     justify-content:space-around;  
+    font: #deebff;
 }
 #liens li a{
     text-decoration: none ;
@@ -45,20 +46,19 @@ ul {
 
 #liens a:hover {
     text-decoration-line: overline;
-    
+/*logo*/   
 }
 #logo{
     width:10em; 
 }
 
-
+/*barre de recherche*/
 .research-box{
     display:flex;
     border:3px rosybrown solid;
-
+   
 }
 
 
 
-
-
+    
