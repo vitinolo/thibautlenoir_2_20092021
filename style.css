@@ -1,63 +1,81 @@
 /*couleur fond de page , couleur police,marge*/
-@font-face {
-    font-family: raleway;
-    src: url(bureau/thibautlenoir_2_20092021);
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
+/*wildcard*/
+*{
+    font-family: raleway,sans-serif;
+    box-sizing: border-box;
 }
+
 body {
-   
     background-color: rgb(212, 173, 173);
     color: black;
+    width:1440px;
+    margin:auto;
 }
 
 /*header début*/
 header {
-    border:3px black solid;
-    width:1440px;
-    margin:auto;
+    border:1px black solid;
+    background-color:white; 
    }
-.contener {
-    display: flex;
-    width:1440px;
-    background-color: white;
+
+/*logo*/   
+#logo{
+    width:10em; 
+    padding: 0px 0px 0px 2px;
 }
-.element1 {
+.logo{
     display:flex;
-    border:3px yellow solid;
+    border:1px yellow solid;
     width:229px;
     height:127px; 
 }
-.element2 {
-    border:3px red solid;
-    width:1211px;
-    display:flex;
-    justify-content:flex-end;    
-}
+
 /*navigation*/
+nav{
+    display:flex;
+    border:1px solid blue;  
+}
+
+/*liens*/
+.liens {
+    border:1px red solid;
+    width: 1276px;
+    height:127px;
+    display:flex;
+    justify-content:flex-end;      
+}
 ul {
     width:526px;
+    height: 73.8667px;
     display:flex;
     list-style-type: none;
-    justify-content:space-around;  
+    justify-content:space-between;  
     font: #deebff;
+    border:1px solid green;
+    padding:6px 2px 0px 2px;
 }
 #liens li a{
-    text-decoration: none ;
+    text-decoration: none ; 
+    color:#0065fc; 
 }
 
-#liens a:hover {
-    text-decoration-line: overline;
-/*logo*/   
-}
-#logo{
-    width:10em; 
+#liens a:hover{
+    border-top: 3px solid #0065fc;
+    padding: 0px;
 }
 
+.sinscrire{
+    font-weight:600; 
+}   
 /*barre de recherche*/
 .research-box{
-    display:flex;
-    border:3px rosybrown solid;
-   
+    
+    border:1px rosybrown solid;  
 }
+
+
 
 
 
