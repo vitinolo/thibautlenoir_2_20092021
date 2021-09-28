@@ -10,7 +10,7 @@ a{
     color:inherit;
     text-decoration: none;
 }
-
+/*navigation*/
 nav{
     display:flex;
     align-items: center;
@@ -27,10 +27,40 @@ nav a:hover{
 .logoreservia{
     margin-right:auto;
     padding-right: 0 2px;
+    width: 10rem;
 }
 .signup{
     font-weight: bold;
 }
 .activites{
     color:black;
+}
+/*research*/
+.fas.fa-map-marker-alt{
+    display: inline-flex;
+    border:2px solid #f2f2f2;
+    background-color: #f2f2f2;
+    width:40px;
+    height:50.4px;
+    padding:15px 0px 0px 15px;
+    border-radius:10px 0px 0px 10px;
+}
+.research {
+    display: inline-flex;
+    max-width: 800px;
+    height:50.4px;
+}
+
+.research-bar{
+    border:2px solid #f2f2f2;
+    font-weight:bold ;
+}
+
+.button-research{
+    display: inline-flex;
+    background-color:#0065fc;
+    color:white;
+    font-weight:bold;
+    padding-top: 15px;
+    border-radius:0px 10px 10px 0px;
 }
