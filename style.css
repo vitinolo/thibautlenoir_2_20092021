@@ -1,6 +1,9 @@
 /*couleur fond de page , couleur police,marge*/
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
 
+body{
+    margin:3rem;
+}
 /*wildcard*/
 *{
     font-family: raleway,sans-serif;
@@ -27,7 +30,7 @@ nav a:hover{
 .logoreservia{
     margin-right:auto;
     padding-right: 0 2px;
-    width: 10rem;
+    width: 6rem;
 }
 .signup{
     font-weight: bold;
@@ -43,7 +46,7 @@ nav a:hover{
     width:40px;
     height:50.4px;
     padding:15px 0px 0px 15px;
-    border-radius:10px 0px 0px 10px;
+    border-radius:15px 0px 0px 15px;
 }
 .research {
     display: inline-flex;
@@ -62,5 +65,58 @@ nav a:hover{
     color:white;
     font-weight:bold;
     padding-top: 15px;
-    border-radius:0px 10px 10px 0px;
+    border-radius:0px 15px 15px 0px;
 }
+/*filtres*/
+
+.filtres{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    max-width:800px;
+    line-height: 4em;   
+}
+.icon-information{
+    display:flex;
+    align-items:center;
+    line-height: 2em;
+}
+.icon-economique{
+    display:flex;
+    border:2px solid #f2f2f2;
+    padding:1px 1px 1px 1px;
+    height:40px;
+    align-items:center;
+}
+   
+.icon-familial{
+    display:flex;
+    border:2px solid #f2f2f2;
+    height:40px;
+    align-items:center;
+}
+.icon-romantique{
+    display:flex;
+    border:2px solid #f2f2f2;
+    height:40px;
+    align-items:center;
+}
+.icon-animaux{
+    display:flex;
+    border:2px solid #f2f2f2;
+    height:40px; 
+    align-items:center;
+}
+i.fas.fa-info{
+    display:flex;
+    justify-content:center;
+    width:32px;
+    height:32px;
+    color:#0065fc;
+    border: 2px solid #f2f2f2;
+    border-radius:30px 30px 30px 30px;
+    background-color:white;
+    margin-right: 15px;
+    align-items:center;
+}
+
