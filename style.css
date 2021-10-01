@@ -13,6 +13,13 @@ a{
     color:inherit;
     text-decoration: none;
 }
+/*header*/
+.titleh1{
+    margin:30px 0px 0px 0px;
+}
+.subtitleh1{
+    margin:16px 0px 16px 0px;;
+}
 /*navigation*/
 nav{
     display:flex;
@@ -38,6 +45,9 @@ nav a:hover{
 .activites{
     color:black;
 }
+.activites:hover{
+    color:#0065fc;
+}
 /*research*/
 .fas.fa-map-marker-alt{
     display: flex;
@@ -57,34 +67,38 @@ nav a:hover{
     justify-content: center;
 }
 .research {
-    display: inline-flex;
+    display:flex;
     max-width: 800px;
     height:50.4px;
 }
 
 .research-bar{
+    display:flex;
     border:2px solid #f2f2f2;
     font-weight:bold ;
     text-align:center;
-    color:black;
+    width:224px;
 }
 
+
 .button-research{
-    display: inline-flex;
+    display:flex;
     background-color:#0065fc;
     color:white;
     font-weight:bold;
     padding-top: 15px;
     border-radius:0px 15px 15px 0px;
-}
+    width:136px;
+    justify-content:center;
+ }
 
 /*filtres*/
 
 .filtres{
-    display: flex;
+    display:flex;
     align-items:center;
     justify-content: space-between;
-    max-width:800px;
+    max-width:1000px;
     line-height: 4em;  
     font-weight:bold; 
 }
@@ -100,7 +114,12 @@ h2{
     height:50px;
     align-items:center;
     border-radius:30px 30px 30px 30px;
+    margin-left:0em;
 }
+.icon-economique:hover{
+    background-color:#deebff;
+}
+
 a.economique{
     width:105px;
 }
@@ -129,6 +148,10 @@ i.fas.fa-money-bill-wave::before{
     height:50px;
     align-items:center;
     border-radius:30px 30px 30px 30px;
+    margin-left:1em;
+}
+.icon-familial:hover{
+    background-color:#deebff;
 }
 a.familial{
     width:70px;
@@ -155,6 +178,10 @@ i.fas.fa-child::before{
     height:50px;
     align-items:center;
     border-radius:30px 30px 30px 30px;
+    margin-left:1em;
+}
+.icon-romantique:hover{
+    background-color:#deebff;
 }
 a.romantique{
     width:100px;
@@ -182,6 +209,10 @@ i.fas.fa-heart::before{
     width:220px;
     align-items:center;
     border-radius:30px 30px 30px 30px;
+    margin-left:1em;
+}
+.icon-animaux:hover{
+    background-color:#deebff;
 }
 i.fas.fa-dog{
     display:flex;
@@ -206,6 +237,7 @@ i.fas.fa-dog::before{
     display:flex;
     align-items:center;
     line-height: 2em;
+    margin: 0px 0px 40px 0px;
 }
 i.fas.fa-info{
     display:flex;
