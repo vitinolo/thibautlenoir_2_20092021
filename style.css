@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
 
 body{
-    margin:3rem;
+    margin:auto;
+    width:1341px;
 }
 /*wildcard*/
 *{
@@ -250,4 +251,45 @@ i.fas.fa-info{
     background-color:white;
     margin-right: 15px;
     align-items:center;
+}
+/*Section1*/
+#accommodation{
+    display:flex;
+}
+.accommodation{
+    background-color:#f2f2f2;
+    justify-content:space-between;
+    display:flex;
+    margin-right:40px;
+    width:878px;
+    height:626px;
+    border-radius:30px;
+}
+.hmarseille {
+   margin:50px 0px 0px 30px;
+}
+.themostpopular{
+    background-color:#f2f2f2;
+    display:flex;
+    width:419px;
+    height:626px;
+    border-radius:30px;
+}
+.lespluspop{
+    margin:50px 0px 0px 30px;
+}
+/*Section2*/
+#activity{
+    display:flex;
+    width:1336px;
+    height:498px;
+    border-radius:30px;
+}
+
+/*footer*/
+.footer{
+    display:flex;
+    width:1439px;
+    height:218px;
+    background-color:#f2f2f2;     
 }
