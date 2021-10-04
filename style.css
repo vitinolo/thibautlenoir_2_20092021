@@ -26,7 +26,7 @@ nav{
     display:flex;
     align-items: center;
     justify-content: flex-end;
-    flex-wrap:wrap;
+    flex-wrap:wrap; 
 }
 nav a{
     padding:2rem;
@@ -97,6 +97,7 @@ nav a:hover{
 
 .filtres{
     display:flex;
+    flex-wrap:wrap;
     align-items:center;
     justify-content: space-between;
     max-width:1000px;
