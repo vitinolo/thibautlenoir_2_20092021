@@ -3,7 +3,7 @@
 
 body{
     margin:auto;
-    width:1341px;
+    max-width:1341px;
 }
 /*wildcard*/
 *{
@@ -261,9 +261,9 @@ i.fas.fa-info{
     justify-content:space-between;
     display:flex;
     margin-right:40px;
-    width:878px;
-    height:626px;
     border-radius:30px;
+    max-width:878px;
+    height:626px;
 }
 .hmarseille {
    margin:50px 0px 0px 30px;
@@ -271,25 +271,25 @@ i.fas.fa-info{
 .themostpopular{
     background-color:#f2f2f2;
     display:flex;
-    width:419px;
-    height:626px;
     border-radius:30px;
+    max-width: 419px;
+    height:626px;
 }
-.lespluspop{
+.themostpop{
     margin:50px 0px 0px 30px;
 }
 /*Section2*/
 #activity{
     display:flex;
-    width:1336px;
-    height:498px;
     border-radius:30px;
+    max-width: 1336px;
+    height:498px;
 }
 
 /*footer*/
 .footer{
     display:flex;
-    width:1439px;
+    background-color:#f2f2f2; 
+    max-width: 1439px;    
     height:218px;
-    background-color:#f2f2f2;     
 }
