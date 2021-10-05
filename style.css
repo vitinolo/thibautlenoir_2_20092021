@@ -1,7 +1,7 @@
 /*couleur fond de page , couleur police,marge*/
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
 
-body{
+.container{
     margin:auto;
     max-width:1341px;
 }
@@ -29,8 +29,9 @@ nav{
     flex-wrap:wrap; 
 }
 nav a{
-    padding:2rem;
+    padding:2em;
     color: #0065fc;
+    border-top: 3px solid transparent;
 }
 nav a:hover{
     border-top:3px solid #0065fc;
@@ -38,11 +39,9 @@ nav a:hover{
 .logoreservia{
     margin-right:auto;
     padding-right: 0 2px;
-    width: 6rem;
+    width: 6em;
 }
-.signup{
-    font-weight: bold;
-}
+
 .activites{
     color:black;
 }
@@ -108,57 +107,22 @@ h2{
     font-size:27px;
 }
 
-/*filtre economique*/
-.icon-economique{
+/*filtres*/
+.icon{
     display:flex;
     border:3px solid #f2f2f2;
-    padding:1px 1px 1px 0px;
-    height:50px;
-    align-items:center;
-    border-radius:30px 30px 30px 30px;
-    margin-left:0em;
-}
-.icon-economique:hover{
-    background-color:#deebff;
-}
-
-a.economique{
-    width:105px;
-}
-
-i.fas.fa-money-bill-wave{
-    display:flex;
-    align-items:center;
-    width:50px;
-    height: 50px;
-    border-radius:30px 30px 30px 30px;
-    background-color:#deebff;
-    justify-content:center;
-    margin-right:0.5rem;
-}
-
-
-i.fas.fa-money-bill-wave::before{
-    display:flex;
-    color:#0065fc;
-}
-/*filtre familial*/
-.icon-familial{
-    display:flex;
-    border:3px solid #f2f2f2;
-    padding:1px 1px 1px 0px;
+    padding:1px 15px 1px 0px;
     height:50px;
     align-items:center;
     border-radius:30px 30px 30px 30px;
     margin-left:1em;
 }
-.icon-familial:hover{
+
+.icon:hover{
     background-color:#deebff;
 }
-a.familial{
-    width:70px;
-}
-i.fas.fa-child{
+.i{
+    color:#0065fc;
     display:flex;
     align-items:center;
     width:50px;
@@ -168,71 +132,7 @@ i.fas.fa-child{
     justify-content:center;
     margin-right:0.5rem;
 }
-i.fas.fa-child::before{
-    display:flex;
-    color:#0065fc;
-} 
-/*filtre romantique*/
-.icon-romantique{
-    display:flex;
-    border:3px solid #f2f2f2;
-    padding:1px 1px 1px 0px;
-    height:50px;
-    align-items:center;
-    border-radius:30px 30px 30px 30px;
-    margin-left:1em;
-}
-.icon-romantique:hover{
-    background-color:#deebff;
-}
-a.romantique{
-    width:100px;
-}
-i.fas.fa-heart{
-    display:flex;
-    align-items:center;
-    width:50px;
-    height: 50px;
-    border-radius:30px 30px 30px 30px;
-    background-color:#deebff;
-    justify-content:center;
-    margin-right:0.5rem;
-}
-i.fas.fa-heart::before{
-    display:flex;
-    color:#0065fc;
-}
-/*filtre animaux*/
-.icon-animaux{
-    display:flex;
-    border:3px solid #f2f2f2;
-    padding:1px 1px 1px 0px;
-    height:50px;
-    width:220px;
-    align-items:center;
-    border-radius:30px 30px 30px 30px;
-    margin-left:1em;
-}
-.icon-animaux:hover{
-    background-color:#deebff;
-}
-i.fas.fa-dog{
-    display:flex;
-    align-items:center;
-    width:50px;
-    height: 50px;
-    border-radius:30px 30px 30px 30px;
-    background-color:#deebff;
-    justify-content:center;
-    margin-right:0.5rem;
-}
-i.fas.fa-dog::before{
-    display:flex;
-    color:#0065fc;
-}
-.filtre.icon.a{
-    margin-right:2em;
-}
+
 /*icone information*/
 
 .icon-information{
@@ -241,7 +141,7 @@ i.fas.fa-dog::before{
     line-height: 2em;
     margin: 0px 0px 40px 0px;
 }
-i.fas.fa-info{
+.iconi{
     display:flex;
     justify-content:center;
     width:32px;
@@ -254,7 +154,7 @@ i.fas.fa-info{
     align-items:center;
 }
 /*Section1*/
-#accommodation{
+.section1{
     display:flex;
 }
 .accommodation{
@@ -291,6 +191,6 @@ i.fas.fa-info{
 .footer{
     display:flex;
     background-color:#f2f2f2; 
-    max-width: 1439px;    
+    max-width:100%;    
     height:218px;
 }

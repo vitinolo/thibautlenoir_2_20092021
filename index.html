@@ -8,44 +8,54 @@
         <title>Projet site de réservation hébergements</title>
     </head>
     <body>
+     <div class="container">
        <!--header-->
-      <header>
-       <!--navigation-->
-       <nav>
-        <img class="logoreservia" src="images/logo/Reservia@3x.png"  alt="logo reservia" />
+       <header>
+        <!--navigation-->
+        <nav>
+          <img class="logoreservia" src="images/logo/Reservia@3x.png"  alt="logo reservia" />
           <a href="#hebergement">Hébergements</a>
-          <a class="activites" href="#activites">Activités</a>
-          <a class="signup" href="Sinscrire">S'inscrire</a>      
-       </nav>
-       <!--titre h1-->
-       <h1 class="titleh1">Trouvez votre hébergement pour des vacances de rêve</h1>
-       <p class="subtitleh1">En plein centre ville ou en pleine nature</p>
-      </header>
-       <!--barre de recherche de villes-->
-       <div class="icon-location">
+          <a class="activites" href="#activites">Activités</a>      
+        </nav>
+          <!--titre h1-->
+          <h1 class="titleh1">Trouvez votre hébergement pour des vacances de rêve</h1>
+          <p class="subtitleh1">En plein centre ville ou en pleine nature</p>
+       </header>
+        <!--barre de recherche de villes-->
+        <div class="icon-location">
         <div class="research">
-            <i class="fas fa-map-marker-alt"></i>
-            <input type="text" placeholder="Marseille, France" class="research-bar">
-            <button class="button-research">Rechercher</button>
+          <i class="fas fa-map-marker-alt"></i>
+          <input type="text" placeholder="Marseille, France" class="research-bar">
+          <button class="button-research">Rechercher</button>
         </div>
         <!--fitres-->
-       <div class="filtres">
-         <h2 class="title2">Filtres</h2>
-         <div class="icon-economique"><i class="fas fa-money-bill-wave"></i><a class="economique" href="">Économique</a>
-         </div>
-         <div class="icon-familial"><i class="fas fa-child"></i><a class="familial" href="">Familial</a>
-         </div>
-         <div class="icon-romantique"><i class="fas fa-heart"></i><a class="romantique" href="">Romantique</a>
-         </div>
-         <div class="icon-animaux"><i class="fas fa-dog"></i><a class="animaux" href="">Animaux autorisés</a>
-         </div>
+        <div class="filtres">
+          <h2 class="title2">Filtres</h2>
+          <div class="icon">
+            <div class="i"><i class="fas fa-money-bill-wave"></i></div>
+            <a class="economique" href="">Économique</a>
+          </div>
+          <div class="icon">
+           <div class="i"><i class="fas fa-child"></i></div>
+           <a class="familial" href="">Familial</a>
+          </div>
+          <div class="icon">
+           <div class="i"><i class="fas fa-heart"></i></div>
+           <a class="romantique" href="">Romantique</a>
+          </div>
+          <div class="icon">
+           <div class="i"><i class="fas fa-dog"></i></div>
+           <a class="animaux" href="">Animaux autorisés</a>
+          </div>
         </div>
          <!--sous-titre-->
-        <div class="icon-information"><i class="fas fa-info"></i><p class="subtitleh2">Plus de 500 logements disponibles dans cette ville</p>
+        <div class="icon-information">
+           <div class="iconi"><i class="fas fa-info"></i></div>
+           <p class="subtitleh2">Plus de 500 logements disponibles dans cette ville</p>
         </div>
        </div>
        <!--Section1-->
-       <section id="accommodation"> 
+       <section class="section1"> 
         <div class="accommodation">
          <header>
           <div id="hebergement"></div>
@@ -84,6 +94,7 @@
            <article></article>
           </div>
        </section>
+      </div>
        <!--footer-->
        <footer class="footer">
          <div></div>
