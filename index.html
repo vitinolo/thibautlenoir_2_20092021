@@ -5,6 +5,8 @@
         <meta charset="utf-8" />
         <link rel="stylesheet" href="style.css">
         <script src="https://kit.fontawesome.com/4f6e946007.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" 
+        integrity="sha384-tKLJeE1ALTUwtXlaGjJYM3sejfssWdAaWR2s97axw4xkiAdMzQjtOjgcyw0Y50KU" crossorigin="anonymous">
         <title>Projet site de réservation hébergements</title>
     </head>
     <body>
@@ -13,7 +15,7 @@
        <header>
         <!--navigation-->
         <nav>
-          <img class="logoreservia" src="images/logo/Reservia@3x.png"  alt="logo reservia" />
+          <img class="logobooki" src="images/logo/booki@3x.png"  alt="logo booki" />
           <a href="#hebergement">Hébergements</a>
           <a class="activites" href="#activites">Activités</a>      
         </nav>
@@ -22,84 +24,212 @@
           <p class="subtitleh1">En plein centre ville ou en pleine nature</p>
        </header>
         <!--barre de recherche de villes-->
-        <div class="icon-location">
-        <div class="research">
+       <div class="icon-location">
+          <div class="research">
           <i class="fas fa-map-marker-alt"></i>
           <input type="text" placeholder="Marseille, France" class="research-bar">
           <button class="button-research">Rechercher</button>
-        </div>
-        <!--fitres-->
+          </div>
+         <!--fitres-->
         <div class="filtres">
           <h2 class="title2">Filtres</h2>
           <div class="icon">
-            <div class="i"><i class="fas fa-money-bill-wave"></i></div>
+            <div class="i"><i class="fas fa-money-bill-wave"></i>
+            </div>
             <a class="economique" href="">Économique</a>
           </div>
           <div class="icon">
-           <div class="i"><i class="fas fa-child"></i></div>
+           <div class="i"><i class="fas fa-child"></i>
+           </div>
            <a class="familial" href="">Familial</a>
           </div>
           <div class="icon">
-           <div class="i"><i class="fas fa-heart"></i></div>
+           <div class="i"><i class="fas fa-heart"></i>
+           </div>
            <a class="romantique" href="">Romantique</a>
           </div>
           <div class="icon">
-           <div class="i"><i class="fas fa-dog"></i></div>
+           <div class="i"><i class="fas fa-dog"></i>
+           </div>
            <a class="animaux" href="">Animaux autorisés</a>
           </div>
         </div>
          <!--sous-titre-->
         <div class="icon-information">
-           <div class="iconi"><i class="fas fa-info"></i></div>
+           <div class="iconi"><i class="fas fa-info"></i>
+           </div>
            <p class="subtitleh2">Plus de 500 logements disponibles dans cette ville</p>
         </div>
        </div>
        <!--Section1-->
        <section class="section1"> 
-        <div class="accommodation">
+         <div class="accommodation">
+           <!--Ancre-->
+          <div id="hebergement">
+          </div>
          <header>
-          <div id="hebergement"></div>
-          <h2 class="hmarseille">Hébergement à Marseille</h2>
+           <h2 class="hmarseille">Hébergement à Marseille</h2>
          </header>
-          <article></article>
-          <article></article>
-          <article></article>
-          <article></article>
-          <article></article>
-          <article></article>
+       <div class="line1">
+          <article class="accomodationmaincard">
+           <a href="#">
+            <figure class="accomodationmain">
+            <img class="accommodationmaincardimg" 
+            src="images\hebergements\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg" 
+            alt="photo d'hébergement">
+            <figcaption class="accomodationmaincardfigcaption">Auberge de la Cannebière</figcaption>
+            </figure>
+            <p class="accommodationmaincardprice">
+            <strong class="accommodationmaincardprice">25 euros</strong>
+            </p>
+           </a>
+          </article>
+          <article class="accomodationmaincard">
+           <a href="#">
+            <figure class="accomodationmain">
+            <img class="accommodationmaincardimg" 
+            src="images\hebergements\4_small\fred-kleber-gTbaxaVLvsg-unsplash.jpg" 
+            alt="photo d'hébergement">
+            <figcaption class="accomodationmaincardfigcaption">Hôtel du port</figcaption>
+            </figure>
+            <p class="accommodationmaincardprice">
+            <strong class="accommodationmaincardprice">52 euros</strong>
+            </p>
+           </a>
+          </article>
+          <article class="accomodationmaincard">
+           <a href="#">
+            <figure class="accomodationmain">
+            <img class="accommodationmaincardimg" 
+            src="images\hebergements\4_small\reisetopia-B8WIgxA_PFU-unsplash.jpg" 
+            alt="photo d'hébergement">
+            <figcaption class="accomodationmaincardfigcaption">Hotel les mouettes</figcaption>
+            </figure>
+            <p class="accommodationmaincardprice">
+            <strong class="accommodationmaincardprice">76 euros</strong>
+            </p>
+           </a>
+          </article>
         </div>
-        <div class="themostpopular">
-          <aside>
-          <header>
-           <h2 class="themostpop">Les plus populaires</h2>
-           <i class="fas fa-chart-line"></i>
-          </header> 
-           <article></article>
-           <article></article>
-           <article></article>
-          </aside>
+       <div class="line2">
+          <article class="accomodationmaincard">
+            <a href="#">
+             <figure class="accomodationmain">
+             <img class="accommodationmaincardimg" 
+             src="images\hebergements\4_small\reisetopia-B8WIgxA_PFU-unsplash.jpg" 
+             alt="photo d'hébergement">
+             <figcaption class="accomodationmaincardfigcaption">Hotel les mouettes</figcaption>
+             </figure>
+             <p class="accommodationmaincardprice">
+             <strong class="accommodationmaincardprice">76 euros</strong>
+             </p>
+            </a>
+          </article>
+          <article class="accomodationmaincard">
+            <a href="#">
+             <figure class="accomodationmain">
+             <img class="accommodationmaincardimg" 
+             src="images\hebergements\4_small\reisetopia-B8WIgxA_PFU-unsplash.jpg" 
+             alt="photo d'hébergement">
+             <figcaption class="accomodationmaincardfigcaption">Hotel les mouettes</figcaption>
+             </figure>
+             <p class="accommodationmaincardprice">
+             <strong class="accommodationmaincardprice">76 euros</strong>
+             </p>
+            </a>
+          </article>
+          <article class="accomodationmaincard">
+            <a href="#">
+             <figure class="accomodationmain">
+             <img class="accommodationmaincardimg" 
+             src="images\hebergements\4_small\reisetopia-B8WIgxA_PFU-unsplash.jpg" 
+             alt="photo d'hébergement">
+             <figcaption class="accomodationmaincardfigcaption">Hotel les mouettes</figcaption>
+             </figure>
+             <p class="accommodationmaincardprice">
+             <strong class="accommodationmaincardprice">76 euros</strong>
+             </p>
+            </a>
+          </article>
         </div>
+          <div class="themostpopular">
+           <aside>
+            <header>
+             <h2 class="themostpop">Les plus populaires</h2>
+             <i class="fas fa-chart-line"></i>
+            </header> 
+            <article class="themostpopularmaincard">
+              <a href="#">
+               <figure class="themostpopularmain">
+               <img class="themostpopularmaincardimg" 
+               src="images\hebergements\4_small\emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" 
+               alt="photo d'hébergement">
+               <figcaption class="themostpopularmaincardfigcaption">Hotel le soleil du matin</figcaption>
+               </figure>
+               <p class="themostpopilarmaincardprice">
+               <strong class="themostpopularmaincardprice">128 euros</strong>
+               </p>
+              </a>
+            </article>
+            <article class="themostpopularmaincard">
+              <a href="#">
+               <figure class="themostpopularmain">
+               <img class="themostpopularmaincardimg"
+               src="images\hebergements\4_small\aw-creative-VGs8z60yT2c-unsplash.jpg" 
+               alt="photo d'hébergement">
+               <figcaption class="themostpopularmaincardfigcaption">Au coeur de l'eau Chambres d'hôtes</figcaption>
+               </figure>
+               <p class="themostpopilarmaincardprice">
+               <strong class="themostpopularmaincardprice">71 euros</strong>
+               </p>
+              </a>
+            </article>
+            <article class="themostpopularmaincard">
+              <a href="#">
+               <figure class="themostpopularmain">
+               <img class="themostpopularmaincardimg" 
+               src="images\hebergements\4_small\febrian-zakaria-sjvU0THccQA-unsplash.jpg" 
+               alt="photo d'hébergement">
+               <figcaption class="themostpopularmaincardfigcaption">Hotel tout bleu et blanc</figcaption>
+               </figure>
+               <p class="themostpopilarmaincardprice">
+               <strong class="themostpopularmaincardprice">68 euros</strong>
+               </p>
+              </a>
+            </article>
+           </aside>
+          </div>
+          
        </section>
        <!--Section2-->
-       <section id="activity">
+       <section class="section2">
+         <!--Ancre-->
          <div id="activites" class="activity">
           <header>
            <h2>Activités à Marseille</h2>
           </header>
-           <article></article>
-           <article></article>
-           <article></article>
-           <article></article>
-           <article></article>
-           <article></article>
+           <div class="line3">
+            <article></article>
+           </div>
+           <div class="line4">
+            <article></article>
+            <article></article>
+           </div>
+           <div class="line5">
+            <article></article>
           </div>
+          <div class="line6">
+            <article></article>
+            <article></article>
+          </div>
+         </div>
        </section>
-      </div>
+     </div>
        <!--footer-->
        <footer class="footer">
          <div></div>
          <div></div>
          <div></div>
-        </footer>
-      </body>
+       </footer>
+    </body>
 </html>
