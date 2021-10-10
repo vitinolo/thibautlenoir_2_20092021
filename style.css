@@ -90,7 +90,7 @@ nav a:hover{
     border-radius:0px 15px 15px 0px;
     width:136px;
     justify-content:center;
- }
+}
 
 /*filtres*/
 
@@ -159,27 +159,79 @@ h2{
     }
 
 .accommodation{
-        background-color:#f2f2f2;
-        justify-content:space-between;
-        margin-right:40px;
-        border-radius:30px;
-        max-width:1341px;
- }
+    background-color:#f2f2f2;
+    justify-content:space-between;
+    margin-right:40px;
+    border-radius:30px; 
+    height:600px;      
+}
+ .accommodationmain{
+    background-color:white;
+    border-radius: 20px;
+    width:250px;
+    height:187.4;
+}
+ .accommodationmaincard{
+    width:280px;
+    height:242.933px;
+}
  .accommodationmaincardimg{
-     max-width:200px;
- }
+    display:flex;
+    width:250px;
+    height:133px;
+    border-radius:15px 15px 0px 0px;
+    padding:5px;
+
+}
+figcaption{
+    font-weight:bold;
+}
+strong{
+    font-weight:normal;
+}
+ 
+.line1{
+    display:flex;  
+}
+.line2{
+    display:flex;
+}
+    /*aside*/
+aside{
+    background-color:#f2f2f2;
+    justify-content:space-between;
+    border-radius:30px;
+}
+aside header{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+    
 .themostpopular{
     display:flex;
+    height:600px;    
 }
-.themostpopularmaincardimg{
-    max-width:200px;
+.themostpopularmaincard{
+    display:flex;
+    flex-direction:column;  
 }
 
-.line1{
-    display:flex;
+.themostpopularmaincardimg{
+    width:120px;
+    height:120px;
+    border-radius:15px 0px 0px 15px;
+}
+.themostpopilarmaincardprice{
+    max-width:280px;
     
-}.line2{
+}
+.themostpopularmain{
     display:flex;
+    background-color:white;
+    border-radius:15px 15px 15px 15px;
+    padding:5px;
+    height:130px;
 }
 
 /*Section2*/
