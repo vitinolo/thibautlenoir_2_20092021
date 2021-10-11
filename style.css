@@ -156,46 +156,60 @@ h2{
 /*Section1*/
 .section1{
     display:flex;
-    }
+}
+.hmarseille{
+    font-size:135%;
+    padding-left:20px;
+    padding-top:20px;
+}
 
 .accommodation{
     background-color:#f2f2f2;
     justify-content:space-between;
     margin-right:40px;
     border-radius:30px; 
-    height:600px;      
+    height:700px; 
+    width:950px;     
 }
- .accommodationmain{
+.accommodationmain{
     background-color:white;
     border-radius: 20px;
     width:250px;
     height:187.4;
 }
- .accommodationmaincard{
+.accommodationmaincard{
+    display:flex;
     width:280px;
     height:242.933px;
+    justify-content:center;
+    align-content: center;
 }
- .accommodationmaincardimg{
+
+.accommodationmaincardimg{
     display:flex;
     width:250px;
     height:133px;
     border-radius:15px 15px 0px 0px;
-    padding:5px;
-
+    padding:5px;    
 }
+.accommodationmaincardprice{
+    font-weight: normal;
+}
+
 figcaption{
+    display:inline-block;
     font-weight:bold;
+    margin-left:5px;
 }
 strong{
     font-weight:normal;
 }
- 
-.line1{
-    display:flex;  
+
+.line{
+    display:flex; 
+    justify-content:space-around; 
 }
-.line2{
-    display:flex;
-}
+
     /*aside*/
 aside{
     background-color:#f2f2f2;
@@ -207,31 +221,42 @@ aside header{
     justify-content:space-around;
     align-items:center;
 }
-    
+.themostpop{
+    font-size:135%;
+    padding-left:5px;
+    padding-top:20px; 
+}  
 .themostpopular{
     display:flex;
-    height:600px;    
-}
-.themostpopularmaincard{
-    display:flex;
-    flex-direction:column;  
-}
-
-.themostpopularmaincardimg{
-    width:120px;
-    height:120px;
-    border-radius:15px 0px 0px 15px;
-}
-.themostpopilarmaincardprice{
-    max-width:280px;
-    
+    height:700px;    
 }
 .themostpopularmain{
     display:flex;
     background-color:white;
     border-radius:15px 15px 15px 15px;
     padding:5px;
-    height:130px;
+    height:160px;
+}
+.themostpopularmaincard{
+    display:flex;
+    flex-direction:column; 
+    max-width:375px;
+    height:220px;
+}
+
+.themostpopularmaincardimg{
+    width:120px;
+    height:150px;
+    border-radius:15px 0px 0px 15px;
+}
+.themostpopilarmaincardprice{
+    max-width:280px;   
+}
+.afficher{
+    display:inline-block;
+    margin:50px 0px 0px 15px;
+    font-weight: bold;
+    font-size:115%;
 }
 
 /*Section2*/
@@ -240,6 +265,9 @@ aside header{
     border-radius:30px;
     max-width: 1336px;
     height:498px;
+}
+.activamars{
+    font-size:135%;
 }
 
 /*footer*/
