@@ -3,7 +3,7 @@
 
 .container{
     margin:auto;
-    max-width:1341px;
+    max-width:1380px;
 }
 /*wildcard*/
 *{
@@ -159,37 +159,35 @@ h2{
 }
 .hmarseille{
     font-size:135%;
-    padding-left:20px;
+    padding-left:40px;
     padding-top:20px;
 }
 
 .accommodation{
     background-color:#f2f2f2;
-    justify-content:space-between;
     margin-right:40px;
     border-radius:30px; 
     height:700px; 
-    width:950px;     
+    width:950px;        
 }
 .accommodationmain{
     background-color:white;
-    border-radius: 20px;
-    width:250px;
+    border-radius:20px;
+    width:265px;
     height:187.4;
 }
 .accommodationmaincard{
     display:flex;
-    width:280px;
+    width:300px;
     height:242.933px;
-    justify-content:center;
-    align-content: center;
+   
 }
 
 .accommodationmaincardimg{
     display:flex;
-    width:250px;
+    width:265px;
     height:133px;
-    border-radius:15px 15px 0px 0px;
+    border-radius:20px 20px 0px 0px;
     padding:5px;    
 }
 .accommodationmaincardprice{
@@ -205,9 +203,16 @@ strong{
     font-weight:normal;
 }
 
-.line{
+.line1{
+    display:flex; 
+    justify-content:space-around;
+    margin-bottom:20px; 
+    padding-right:40px;
+}
+.line2{
     display:flex; 
     justify-content:space-around; 
+    padding-right:40px;
 }
 
     /*aside*/
@@ -226,6 +231,9 @@ aside header{
     padding-left:5px;
     padding-top:20px; 
 }  
+.zigzag{
+    margin-top:20px;
+}
 .themostpopular{
     display:flex;
     height:700px;    
@@ -233,28 +241,28 @@ aside header{
 .themostpopularmain{
     display:flex;
     background-color:white;
-    border-radius:15px 15px 15px 15px;
+    border-radius:20px 20px 20px 20px;
     padding:5px;
     height:160px;
 }
 .themostpopularmaincard{
     display:flex;
     flex-direction:column; 
-    max-width:375px;
-    height:220px;
+    width:390px;
+    height:190px;
 }
 
 .themostpopularmaincardimg{
     width:120px;
     height:150px;
-    border-radius:15px 0px 0px 15px;
+    border-radius:20px 0px 0px 20px;
 }
 .themostpopilarmaincardprice{
     max-width:280px;   
 }
 .afficher{
     display:inline-block;
-    margin:50px 0px 0px 15px;
+    margin:50px 0px 0px 40px;
     font-weight: bold;
     font-size:115%;
 }
@@ -268,6 +276,7 @@ aside header{
 }
 .activamars{
     font-size:135%;
+    margin-top:80px;
 }
 
 /*footer*/
