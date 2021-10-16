@@ -29,7 +29,7 @@ nav{
     flex-wrap:wrap; 
 }
 nav a{
-    padding:2em;
+    padding:40px;
     color: #0065fc;
     border-top: 3px solid transparent;
 }
@@ -38,8 +38,7 @@ nav a:hover{
 }
 .logobooki{
     margin-right:auto;
-    padding-right: 0 2px;
-    width: 6em;
+    width:100px;
 }
 
 .activites{
@@ -77,7 +76,7 @@ nav a:hover{
     border:2px solid #f2f2f2;
     font-weight:bold ;
     text-align:center;
-    max-width:224px;
+    width:280px;
 }
 
 
@@ -100,8 +99,7 @@ nav a:hover{
     flex-wrap:wrap;
     align-items:center;
     justify-content: space-between;
-    max-width:74%;
-    line-height: 4em;  
+    max-width:74%; 
     font-weight:bold; 
 }
 h2{
@@ -116,7 +114,6 @@ h2{
     height:50px;
     align-items:center;
     border-radius:30px;
-    margin-left:1em;
 }
 a{
     margin-left:10px;
@@ -142,7 +139,6 @@ a{
 .icon-information{
     display:flex;
     align-items:center;
-    line-height: 2em;
     margin: 0px 0px 40px 0px;
 }
 .iconi{
@@ -289,49 +285,185 @@ span{
 }
 
 /*Section2*/
+/*activity*/
 .section2{
+    max-width:1352.87px;
+}
+
+.activity{
     display:flex;
-    max-width:auto;
-}
-.activamars{
-   max-width:auto;
-}
-.threeblocks{
-    max-width:50%;
-}
-.blockf1{
-    max-width:50%;
+    justify-content:space-around;
+    height:600px;
+    max-width:1352.87px;
 }
 
-
-img{
-    object-fit: cover;
-}
-
+/*block1*/
 .block1{
-   
+    height:544px;
+    width:320px; 
+    margin:0px 2px 0px -25px;
+    box-shadow:5px 0px 5px 5px #f2f2f2;
+    border-radius:15px 15px 15px 15px;
 }
-.blocks2{
+
+.photoblock1{
+    height:90%;
+    max-width:320px;
+    object-fit: cover;
+    border-radius:15px 15px 0px 0px;
+  
+}
+.activityfigcaption1{
+    height:10%;
+    width:320px; 
+    border-radius:0px 0px 15px 15px;
+    border: 2px solid #f2f2f2;
+    margin-top:-5px;
+    
+}
+/*block2*/
+.block2{
+    height:544px;
+    width:320px; 
+    margin:-20px 2px 0px 0px; 
+    border-radius:15px 15px 15px 15px;
+}
+/*A*/
+.A{
+    box-shadow:5px 0px 5px 5px #f2f2f2;
+    height:65%;
+    width:320px;
+    margin:auto;
+    border-radius:15px 15px 15px 15px;
+}
+.photoblockA{
+    height:80%;
+    width:320px;
+    object-fit: cover;
+    border-radius:15px 15px 0px 0px;
+}
+.activityfigcaptionA{
+    height:20%;
+    width:320px;
+    border-radius:0px 0px 15px 15px;
+    border:2px solid #f2f2f2;
+    margin-top:-5px;
 
 }
-    
-.block3{
-    
+/*B*/
+.B{
+    box-shadow:5px 0px 5px 5px #f2f2f2;
+    height:31.5%;
+    width:320px;
+    margin:auto;
+    border-radius:0px 0px 15px 15px;
+
 }
+.photoblockB{
+    height:65%;
+    width:320px;
+    object-fit: cover;
+    border-radius:15px 15px 0px 0px;
+}
+.activityfigcaptionB{
+    height:35%;
+    width:320px;
+    border-radius:0px 0px 15px 15px;
+    border:2px solid #f2f2f2;
+    margin-top:-5px;
+}
+
+/*block3*/
+.block3{
+    height:544px;
+    width:320px; 
+    margin:0px 2px 0px -10px;
+    box-shadow:5px 0px 5px 5px #f2f2f2;
+    border-radius:15px 15px 15px 15px;
+}
+
+.photoblock3{
+    height:90%;
+    width:320px;
+    object-fit: cover;
+    border-radius:15px 15px 0px 0px;
+}
+.activityfigcaption3{
+    height:10%;
+    width:320px; 
+    border-radius:0px 0px 15px 15px;
+    border:2px solid #f2f2f2;
+    margin-top:-5px;
+}
+
+/*block4*/
+.block4{
+    height:544px;
+    width:320px;
+    margin:-20px 2px 0px -30px;
+}
+/*C*/
+.C{
+    height:48.5%;
+    width:320px;
+    margin:0px 0px 0px 24.29px;
+    box-shadow:5px 0px 5px 5px #f2f2f2;
+    border-radius:15px 15px 15px 15px;
+}
+.photoblockC{
+    height:75%;
+    width:320px;
+    border-radius:15px 15px 0px 0px;
+}
+.activityfigcaptionC{
+    height:25%;
+    width:320px;
+    border-radius:0px 0px 15px 15px;
+    border:2px solid #f2f2f2;
+    margin-top:-5px;
+}
+/*D*/
+.D{
+    height:48.5%;
+    width:320px;
+    margin:0px 0px 0px 24.29px;
+    box-shadow:5px 0px 5px 5px #f2f2f2;
+    border-radius:15px 15px 15px 15px;
+}
+.photoblockD{
+    height:75%;
+    width:320px;
+    border-radius:15px 15px 0px 0px;
+}
+.activityfigcaptionD{
+    height:25%;
+    width:320px;
+    border-radius:0px 0px 15px 15px;
+    border:2px solid #f2f2f2;
+    margin-top:-5px;
+}
+h3{
+    padding-top:10px;
+}
+
+    
 
 /*footer*/
 .footer{
-    flex-wrap:wrap;
-    display:flex;
-    max-width:auto;
+    
+    display:flex; 
     background-color:#f2f2f2;     
     height:235px;
     justify-content:space-between 30%;
 }
 .case{
+    height:150px;
+    width:261px;
     margin:10px 180px 20px 60px;
 }
 
 .h3footer{
-    margin:0px;
+    margin-top:20px;
+    margin-left:0px;
+
 }
