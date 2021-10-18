@@ -463,3 +463,30 @@ h3{
     margin-left:0px;
 
 }
+@media screen and (min-width:768px) and (max-width:992px) {
+
+.section1{
+    flex-direction:column-reverse;
+}
+.line1{
+    flex-direction:column;
+}
+.line2{
+    flex-direction:column;
+}
+aside{
+    width:100%;
+}
+
+.accommodation{
+    display:flex;
+}
+.themostpop{
+    justify-content:space-between;
+    margin-right:30px;
+}
+.themostpopularmaincardimg1{
+    width:320.65px;
+}
+
+}
