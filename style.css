@@ -3,7 +3,10 @@
 
 .container{
     margin:auto;
-    max-width:90%;
+    max-width:1366px;
+}
+body{
+    margin:0px;
 }
 /*wildcard*/
 *{
@@ -73,7 +76,7 @@ nav a:hover{
 
 .research-bar{
     display:flex;
-    border:2px solid #f2f2f2;
+    border:2px 0px 2px 2px solid #f2f2f2;
     font-weight:bold ;
     text-align:center;
     width:280px;
@@ -155,7 +158,8 @@ a{
 }
 /*Section1*/
 .section1{
-    display:flex;   
+    display:flex;  
+    width:100%; 
 }
 .hmarseille{
     font-size:135%;
@@ -165,102 +169,105 @@ a{
 h3{
     margin:10px 10px 10px 20px;
 }
-figcaption{
-    font-weight:bold;
-    padding-bottom:10px;
-}
 .accommodation{
     background-color:#f2f2f2;
-    margin-right:40px;
-    border-radius:30px;            
-}
-.accommodationmain{
-    background-color:white;
-    border-radius:20px;  
-}
-.accommodationmaincard{
-    display:flex;
-    max-width:300px;
-}
-
-.accommodationmaincardimg{
-    object-fit:cover;
-    display:flex;
-    width:265px;
-    height:133px;
-    border-radius:20px 20px 0px 0px;
-    padding:5px;  
-}
-.accommodationmaincardprice{
-    font-weight: normal;
+    margin-right:2%;
+    border-radius:30px; 
+    width:69%;           
 }
 
 .line1{
     display:flex; 
     justify-content:space-around;
-    margin-bottom:20px; 
-    padding-right:40px;
-    margin-left:-20px;
+    margin-bottom:20px;
+    width:100%;
+    
 }
 .line2{
     display:flex; 
-    justify-content:space-around; 
-    padding-right:40px;
-    margin-left:-20px;
+    justify-content:space-around;  
+    width:100%;
 }
+
+.accommodationmaincard{
+    display:flex;
+    max-width:31%;
+    max-height:30%;
+    padding:5px;
+}
+.accommodationmain{  
+    background-color:white;
+    border-radius:20px;  
+    margin:0px;
+}
+
+.accommodationmaincardimg{
+    object-fit:cover;
+    width:265px;
+    height:150px;
+    border-radius:20px 20px 0px 0px;
+    padding:5px;  
+}
+.accommodationmaincardfigcaption{
+    padding-bottom:20px;
+
+}
+figcaption{
+    font-weight:bold;     
+}
+.accommodationmaincardprice{
+    font-weight: normal;
+}
+
+
 
 /*aside*/
 aside{
+    display:flex;  
     background-color:#f2f2f2; 
     border-radius:30px;
+    width:29%;
+}
+.themostpopular{
+    width:100%; 
 }
 
-.themostpopular{
-    display:flex;   
-}
 .themostpop{
     display:flex;
     align-items:center;
     font-size:135%;
-    margin: 35px 0px 35px 20px;
+    margin: 35px 35px 30px 30px;
 }  
 /*îcone*/
 .zigzag{
-    margin-left:33%;
-}
-.themostpopularmain{
-    display:flex;
-    background-color:white;
-    border-radius:20px;
-    margin:0px 20px 70px 20px;
-    height:160px;
-    
+    margin-left:32%;
 }
 .themostpopularmaincard{
     display:flex;
     flex-direction:column; 
-    justify-content:space-around; 
-    margin-top:0px; 
-    margin-left:-15px; 
+    align-content:center; 
+    
+}
+.themostpopularmain{
+    display:flex;
+    width:90%;
+    height:138px;
+    background-color:white;
+    border-radius:20px;  
+    margin:0px 0px 100px 20px;;
 }
 
 .themostpopularmaincardimg{
     object-fit:cover;
-    width:40%;
-    height:160px;
+    width:122px;
+    height:137px;
     border-radius:20px 0px 0px 20px;
     padding:5px;
 }
-.themostpopularmaincardimg1{
-    object-fit:cover;
-    width:57%;
-    height:160px;
-    border-radius:20px 0px 0px 20px;
-    padding:5px;
-}
+
 .themostpopularmainfigcaption{
     font-weight:bold;
-    margin-left:10px;  
+    padding-bottom:10px;
 }
 .star{
     color:#0065fc;
@@ -268,8 +275,7 @@ aside{
 }
 .star2{
     color:#0065fc;
-    padding-top:20px;
-    margin:10px 0px 0px 20px;
+    margin:20px 0px 20px 20px;
 }
 .greystar{
     color:#f2f2f2;
@@ -445,48 +451,79 @@ h3{
     
 
 /*footer*/
-.footer{
-    
-    display:flex; 
-    background-color:#f2f2f2;     
-    height:265px;
-    justify-content:space-between 30%;
+.footer{  
+    background-color:#f2f2f2; 
+    max-width:100%;
+    margin:0px;       
+}
+.cases123{
+    display:flex;
+    max-width:75%;
+    justify-content:space-between;      
 }
 .case{
-    height:150px;
-    width:261px;
-    margin:10px 180px 20px 60px;
+    margin:0px 20px;
 }
 
 .h3footer{
-    margin-top:20px;
-    margin-left:0px;
-
+    margin:20px 0px 0px 50px;   
+}
+ul{
+    list-style-type: none;
+    margin:0px;
+}
+li{
+    margin:20px 0px;
 }
 @media screen and (min-width:768px) and (max-width:992px) {
+    .container{
+        margin:0px 20px 0px 20px;
+    }
 
-.section1{
-    flex-direction:column-reverse;
-}
-.line1{
-    flex-direction:column;
-}
-.line2{
-    flex-direction:column;
-}
-aside{
-    width:100%;
-}
+    .section1{
+        flex-direction:column-reverse;
+    }
+    .accommodation{
+        width:100%;
+    }
+    .accommodationmain{
+        margin-bottom:30px;
+    }
+    .linetablette{
+        display:flex;
+        justify-content:space-between;
+    }
+    .line1{
+        flex-direction:column;
+        justify-content:space-between;
+        width:47%;
+        margin:0px;
+        padding-left:70px;
+    
+        }
+    .line2{
+        flex-direction:column;
+        justify-content:space-between;
+        width:47%;
+        margin:0px;
+        padding-right:60px;
+    }
+    .hmarseille{
+        padding:0px 0px 0px 85px;
+    }
+    .afficher{
+        margin-left:85px;
+        padding-bottom:50px;
+    }
+    aside{
+        width:100%;
+        margin-bottom:30px;
+    }
 
-.accommodation{
-    display:flex;
-}
-.themostpop{
-    justify-content:space-between;
-    margin-right:30px;
-}
-.themostpopularmaincardimg1{
-    width:320.65px;
-}
+    .themostpop{
+        justify-content:space-between;
+        margin-right:30px;
+    }
+    
 
 }
