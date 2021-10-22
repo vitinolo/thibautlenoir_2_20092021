@@ -28,8 +28,8 @@ a{
 nav{
     display:flex;
     align-items: center;
-    justify-content: flex-end;
-    flex-wrap:wrap; 
+    justify-content:space-between;
+    padding-top:30px;   
 }
 nav a{
     padding:40px;
@@ -40,8 +40,10 @@ nav a:hover{
     border-top:3px solid #0065fc;
 }
 .logobooki{
-    margin-right:auto;
-    width:100px;
+       width:100px;
+}
+.hebergact{
+    display:flex;
 }
 
 .activites{
@@ -49,6 +51,9 @@ nav a:hover{
 }
 .activites:hover{
     color:#0065fc;
+}
+nav .activites a{
+    color:black;
 }
 /*research*/
 .fas.fa-map-marker-alt{
@@ -76,7 +81,8 @@ nav a:hover{
 
 .research-bar{
     display:flex;
-    border:2px 0px 2px 2px solid #f2f2f2;
+    border:2px 0px 2px 2px solid;
+    border-color: #f2f2f2;
     font-weight:bold ;
     text-align:center;
     width:280px;
@@ -140,6 +146,7 @@ a{
 /*icone information*/
 
 .icon-information{
+    max-width:80%;
     display:flex;
     align-items:center;
     margin: 0px 0px 40px 0px;
@@ -201,7 +208,7 @@ h3{
     margin:0px;
 }
 
-.accommodationmaincardimg{
+.photo1{
     object-fit:cover;
     width:265px;
     height:150px;
@@ -251,20 +258,18 @@ aside{
 .themostpopularmain{
     display:flex;
     width:90%;
-    height:138px;
     background-color:white;
     border-radius:20px;  
-    margin:0px 0px 100px 20px;;
+    margin:0px 0px 80px 12px;;
 }
 
-.themostpopularmaincardimg{
+.photo2{
     object-fit:cover;
     width:122px;
-    height:137px;
+    height:160px;
     border-radius:20px 0px 0px 20px;
-    padding:5px;
+    padding:5px 0px 0px 5px;
 }
-
 .themostpopularmainfigcaption{
     font-weight:bold;
     padding-bottom:10px;
@@ -305,12 +310,18 @@ span{
     height:600px;
     max-width:1352.87px;
 }
+.block1AB{
+    display:flex;
+}
+.block2CD{
+    display:flex;
+}
 
 /*block1*/
 .block1{
     height:544px;
     width:320px; 
-    margin:0px 2px 0px -25px;
+    margin:0px 30px 0px -25px;
     box-shadow:5px 0px 5px 5px #f2f2f2;
     border-radius:15px 15px 15px 15px;
 }
@@ -382,7 +393,7 @@ span{
 .block3{
     height:544px;
     width:320px; 
-    margin:0px 2px 0px -10px;
+    margin:0px 35px 0px -10px;
     box-shadow:5px 0px 5px 5px #f2f2f2;
     border-radius:15px 15px 15px 15px;
 }
@@ -447,9 +458,7 @@ span{
 h3{
     padding-top:10px;
 }
-
-    
-
+   
 /*footer*/
 .footer{  
     background-color:#f2f2f2; 
@@ -483,6 +492,7 @@ li{
     .section1{
         flex-direction:column-reverse;
     }
+    /*accommodation*/
     .accommodation{
         width:100%;
     }
@@ -515,6 +525,7 @@ li{
         margin-left:85px;
         padding-bottom:50px;
     }
+    /*aside*/
     aside{
         width:100%;
         margin-bottom:30px;
@@ -525,5 +536,143 @@ li{
         margin-right:30px;
     }
     
-
+    /*activités*/
+    .activity{
+        width:100%;
+        height:1200px;
+        display:flex;
+        flex-direction: column;
+    }
+    .activamars{
+        margin:30px 0px 0px 70px;
+    }
+    .block1AB{
+       display:flex;
+       justify-content:center;     
+    }
+    .block2CD{
+       display:flex;
+       justify-content:center; 
+       margin-right:35px;     
+    }
+    /*footer**/
+    .footer{
+        max-width:100%;
+    }
+    .cases123{
+        max-width:100%; 
+    }
+    .case{
+        width:33%;
+        justify-content:space-around;
+        margin:0px;
+    }   
+}
+@media screen and (max-width:768px){
+    .container{
+        width:90%;
+    }
+    header{
+        width:100%;
+    }
+    /*navigation*/
+    nav{
+        width:100%;
+        flex-direction:column;
+    }
+    nav a:hover{
+        border-bottom:3px solid #0065fc;
+        border-top:none;
+    }
+    nav a{
+        width:100%;
+        border-bottom:3px solid #f2f2f2;
+        padding-bottom:10px;
+    }
+    
+    
+    .logobooki{
+        margin-bottom:35px;      
+    }
+    .hebergact{
+        display:flex;
+        width:100%;  
+        margin-right:22px; 
+        margin-bottom:20px;
+    }
+    .hebergements{
+        width:50%; 
+                
+    }
+    .activites{
+        width:50%;  
+                 
+    }
+    /*titres*/
+    h1{
+        font-size:25px;
+        padding-bottom:10px;
+    }
+    .subtitleh1{
+        margin-top:5px;
+        padding-bottom:30px;
+    }
+    h2{
+        font-size:20px;
+    }
+    /*research*/
+    .research{
+        max-width:90%;
+        margin-bottom:30px;
+    }
+    /*section1*/
+    .section1{
+        width:100%; 
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    .aside{
+        width:100%;
+        
+    }
+    .themostpopular{
+        width:100%;
+        
+    }
+    .themostpopularmaincard{
+        width:100%;
+    
+    }
+    .accommodation{
+        width:100%;   
+    }
+    .accommodationmain{
+        margin:10px 0px 10px 0px;
+    }
+    .line1{
+        flex-direction:column;
+        margin:0px 0px 0px 40px;
+    }
+    .line2{
+        flex-direction:column;
+        margin:0px 0px 0px 40px;
+    }
+    
+    /*section2*/
+    .activity{
+        max-width:100%;
+        height:2000px;
+        display:flex;
+        flex-direction: column;
+    }
+    
+    /*footer*/
+    footer{
+        width:100%;
+    }
+    .cases123{
+        flex-direction:column;
+        margin:auto;
+    }
+    
 }
