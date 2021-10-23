@@ -570,7 +570,7 @@ li{
 }
 @media screen and (max-width:768px){
     .container{
-        width:90%;
+        margin:0% 20% 0% 20%;
     }
     header{
         width:100%;
@@ -581,6 +581,7 @@ li{
         flex-direction:column;
     }
     nav a:hover{
+       
         border-bottom:3px solid #0065fc;
         border-top:none;
     }
@@ -625,46 +626,134 @@ li{
         max-width:90%;
         margin-bottom:30px;
     }
+    .icon{
+        margin-bottom:10px;
+    }
     /*section1*/
     .section1{
         width:100%; 
         display:flex;
         flex-direction: column-reverse;
     }
-    .aside{
+    /*aside*/
+    aside{
         width:100%;
-        
+        margin-bottom:20px;
+        border-radius:0px;
     }
-    .themostpopular{
-        width:100%;
-        
+    .themostpop{
+        justify-content:space-between;
+        margin-right:30px;
     }
-    .themostpopularmaincard{
-        width:100%;
+    .afficher{
+        margin-left:25px;
+        padding-bottom:60px;
+    }
+    .hmarseille{
+        margin-left:-10px;
+    }
+    /*hébergements*/
     
-    }
     .accommodation{
-        width:100%;   
+        width:100%;
+        background-color:white;   
     }
-    .accommodationmain{
-        margin:10px 0px 10px 0px;
+    .linetablette{
+        width:100%;
+        margin:0px;
     }
     .line1{
         flex-direction:column;
-        margin:0px 0px 0px 40px;
     }
     .line2{
         flex-direction:column;
-        margin:0px 0px 0px 40px;
+        
+        
     }
+    .accommodationmaincard{
+        max-width:100%;   
+
+    }
+    .accommodationmaincard a{
+        width:100%;
+    }
+    .accommodationmain{
+        width:100%;
+        margin:10px 0px 10px 0px;
+        box-shadow:5px 0px 5px 5px #f2f2f2;
+    }
+    .photo1{
+        width:100%;
+    }
+    .title2{
+        width:45%;
+    }
+    
     
     /*section2*/
     .activity{
-        max-width:100%;
-        height:2000px;
+        width:100%;
+        height:2600px;
         display:flex;
         flex-direction: column;
+        margin:0px;
+
     }
+    .block1AB{
+        flex-direction:column;
+    }
+    .block2CD{
+        flex-direction:column;
+    }
+    .block1{
+        width:361.33px; 
+        height:274px;
+        margin:0px;  
+    }
+    .A{
+        width:361.33px; 
+        height:274px;
+        margin:0px;  
+    }
+    .B{
+        width:361.33px; 
+        height:274px;
+        margin:0px;
+    }
+    .block3{
+        width:361.33px; 
+        height:274px;
+        margin:0px;
+    }
+    .C{
+        width:361.33px; 
+        height:274px;
+        margin:0px;
+    }
+    .D{
+        width:361.33px; 
+        height:274px;
+        margin:0px;
+    }
+    .photoblock1{
+        width:100%;
+    }
+    .photoblockA{
+        width:100%;
+    }
+    .photoblockB{
+        width:100%;
+    }
+    .photoblock3{
+        width:100%;
+    }
+    .photoblockC{
+        width:100%;
+    }
+    .photoblockD{
+        width:100%;
+    }
+    
     
     /*footer*/
     footer{
