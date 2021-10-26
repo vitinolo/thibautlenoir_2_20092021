@@ -81,13 +81,13 @@ nav .activites a{
 
 .research-bar{
     display:flex;
-    border:2px 0px 2px 2px solid;
+    border:2px solid;
+    border-right:none;
     border-color: #f2f2f2;
     font-weight:bold ;
     text-align:center;
     width:280px;
 }
-
 
 .button-research{
     border:none;
@@ -187,8 +187,7 @@ h3{
     display:flex; 
     justify-content:space-around;
     margin-bottom:20px;
-    width:100%;
-    
+    width:100%;   
 }
 .line2{
     display:flex; 
@@ -225,8 +224,6 @@ figcaption{
 .accommodationmaincardprice{
     font-weight: normal;
 }
-
-
 
 /*aside*/
 aside{
@@ -510,7 +507,7 @@ li{
         margin:0px;
         padding-left:70px;
     
-        }
+    }
     .line2{
         flex-direction:column;
         justify-content:space-between;
@@ -590,7 +587,9 @@ li{
         border-bottom:3px solid #f2f2f2;
         padding-bottom:10px;
     }
-    
+    .activites a{
+        margin:0px;
+    }
     
     .logobooki{
         margin-bottom:35px;      
@@ -649,7 +648,7 @@ li{
         margin:30px 0px 0px 0px;
     }
     .hmarseille{
-        margin:0px;
+        margin:0px 0PX 10PX 0PX;
         padding:5px;
     }
     /*hébergements*/
@@ -690,7 +689,6 @@ li{
         width:45%;
     }
     
-    
     /*section2 activités*/
     .activity{
         width:100%;
@@ -698,7 +696,6 @@ li{
         display:flex;
         flex-direction: column;
         margin:0px;
-
     }
     
     .block1AB{
@@ -778,7 +775,6 @@ li{
         width:100%;
         height:80%;
     }
-    
     
     /*footer*/
     footer{
