@@ -95,10 +95,24 @@ nav .activites a{
     background-color:#0065fc;
     color:white;
     font-weight:bold;
-    padding-top: 15px;
     border-radius:0px 15px 15px 0px;
-    width:136px;
     justify-content:center;
+    width:160.8px;
+    height:50.4px;
+    }
+.button{
+    margin:0px;
+    padding:0px;
+    border:none;
+    width:150px;
+    height:50.4px;
+}
+span.button-research{
+        margin:0px;
+        padding-top:15px;
+    }
+.fas.fa-search{
+    display:none;
 }
 
 /*filtres*/
@@ -617,6 +631,16 @@ li{
     .research{
         max-width:90%;
         margin-bottom:30px;
+    }
+    .button-research{
+        display:none;
+    }
+    .fas fa-search{
+        background-color: #0065fc;
+        display:inline;
+    }
+    .button{
+        width:50px;
     }
     .icon{
         margin-bottom:10px;
