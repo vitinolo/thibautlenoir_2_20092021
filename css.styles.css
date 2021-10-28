@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
 
 .container{
-    margin:auto;
-    max-width:1366px;
+    padding:0px 20px 0px 20px;
+    max-width:1420px;
 }
 body{
     margin:0px;
@@ -107,10 +107,7 @@ nav .activites a{
     width:150px;
     height:50.4px;
 }
-span.button-research{
-        margin:0px;
-        padding-top:15px;
-    }
+
 .fas.fa-search{
     display:none;
 }
@@ -129,7 +126,6 @@ h2{
     font-size:27px;
 }
 
-/*filtres*/
 .icon{
     display:flex;
     border:3px solid #f2f2f2;
@@ -137,9 +133,6 @@ h2{
     height:50px;
     align-items:center;
     border-radius:30px;
-}
-a{
-    margin-left:10px;
 }
 
 .icon:hover{
@@ -178,78 +171,79 @@ a{
     align-items:center;
 }
 /*Section1*/
+
 .section1{
     display:flex;  
-    width:100%; 
+    justify-content:space-between;
+    max-width:100%; 
 }
 .hmarseille{
     font-size:135%;
     padding-left:40px;
     padding-top:20px;
 }
-h3{
-    margin:10px 10px 10px 20px;
-}
 .accommodation{
-    background-color:#f2f2f2;
-    margin-right:2%;
+    background-color:#f2f2f2;   
     border-radius:30px; 
-    width:69%;           
+    width:64%;          
 }
-
+.linetablette{
+    width:100%;  
+}
 .line1{
-    display:flex; 
+    display:flex;
+    width:100%;
     justify-content:space-around;
-    margin-bottom:20px;
-    width:100%;   
+    margin-bottom: 50px;
 }
 .line2{
-    display:flex; 
-    justify-content:space-around;  
-    width:100%;
-}
-
-.accommodationmaincard{
     display:flex;
-    max-width:31%;
-    max-height:30%;
-    padding:5px;
+    width:100%;
+    justify-content:space-around;
+}
+.accommodationa{
+    width:265px;
+    max-height:220px;
 }
 .accommodationmain{  
     background-color:white;
     border-radius:20px;  
     margin:0px;
+    max-width:265px;
+    max-height:240px;     
 }
-
 .photo1{
     object-fit:cover;
-    width:265px;
-    height:150px;
+    max-width:265px;
+    max-height:130px;
+    width:100%;
     border-radius:20px 20px 0px 0px;
     padding:5px;  
 }
-.accommodationmaincardfigcaption{
+.accommodationfigcaption{
+    max-width:265px;
+    height:130px;
     padding-bottom:20px;
-
 }
-figcaption{
-    font-weight:bold;     
+h3{
+    margin:0px 10px 0px 20px;
+    padding:0px;
 }
-.accommodationmaincardprice{
-    font-weight: normal;
+.pricepop{
+    padding-left:20px;
+    margin:10px 0px 10px 0px;
+}
+.pricebold{
+    font-weight:bold;
 }
 
 /*aside*/
-aside{
-    display:flex;  
+
+.themostpopular{
     background-color:#f2f2f2; 
     border-radius:30px;
-    width:29%;
+    width:33%;
 }
-.themostpopular{
-    width:100%; 
-}
-
 .themostpop{
     display:flex;
     align-items:center;
@@ -258,36 +252,39 @@ aside{
 }  
 /*îcone*/
 .zigzag{
-    margin-left:32%;
+    margin-left:42%;
 }
-.themostpopularmaincard{
-    display:flex;
-    flex-direction:column; 
-    align-content:center; 
-    
+.themostpopulara{
+    width:411.8px;
+    max-height:175.2px;
+    margin:0px;
+
 }
 .themostpopularmain{
     display:flex;
-    width:90%;
+    max-width:411.8px;
+    max-height:150px;
+    margin:-10px 20px 50px 20px;
     background-color:white;
     border-radius:20px;  
-    margin:0px 0px 80px 12px;;
 }
-
 .photo2{
     object-fit:cover;
-    width:122px;
-    height:160px;
+    max-width:140px;
+    height:150px;
+    width:100%;
     border-radius:20px 0px 0px 20px;
-    padding:5px 0px 0px 5px;
+    padding:5px;
 }
 .themostpopularmainfigcaption{
     font-weight:bold;
     padding-bottom:10px;
+    max-width:271.8px;
+    max-height:150px;
 }
 .star{
     color:#0065fc;
-    margin:10px 0px 0px 20px;
+    margin-left:20px;
 }
 .star2{
     color:#0065fc;
@@ -297,10 +294,6 @@ aside{
     color:#f2f2f2;
 }
 
-span{
-    font-weight:normal;
-    margin:0px 0px 0px 20px;
-}
 
 .afficher{
     display:inline-block;
@@ -312,157 +305,151 @@ span{
 /*Section2*/
 /*activity*/
 .section2{
-    max-width:1352.87px;
+    max-width:100%;
 }
 
 .activity{
     display:flex;
     justify-content:space-around;
+    max-width:100%;
     height:600px;
-    max-width:1352.87px;
 }
-.block1AB{
-    display:flex;
-}
-.block2CD{
-    display:flex;
-}
+
 
 /*block1*/
 .block1{
+    max-width:320px; 
     height:544px;
-    width:320px; 
-    margin:0px 30px 0px -25px;
+    margin:0px;
     box-shadow:5px 0px 5px 5px #f2f2f2;
     border-radius:15px 15px 15px 15px;
 }
 
 .photoblock1{
+    max-width:320px;
     height:90%;
-    width:320px;
+    width:100%;
     object-fit: cover;
     border-radius:15px 15px 0px 0px;
   
 }
-.activityfigcaption1{
-    height:10%;
-    width:320px; 
+.activityfigcaption{  
+    max-width:320px; 
     border-radius:0px 0px 15px 15px;
     margin-top:-5px;
     
 }
 /*block2*/
 .block2{
-    height:544px;
     width:320px; 
-    margin:-20px 2px 0px 0px; 
+    height:544px;
+    margin:0px; 
     border-radius:15px 15px 15px 15px;
 }
 /*A*/
 .A{
+    max-width:320px;
+    height:59%;
     box-shadow:5px 0px 5px 5px #f2f2f2;
-    height:65%;
-    width:320px;
     margin:auto;
     border-radius:15px 15px 15px 15px;
 }
 .photoblockA{
     height:80%;
-    width:320px;
+    max-width:320px;
+    width:100%;
     object-fit: cover;
     border-radius:15px 15px 0px 0px;
 }
-.activityfigcaptionA{
-    height:20%;
-    width:320px;
+.activityfigcaption{  
+    max-width:320px;
     border-radius:0px 0px 15px 15px;
     margin-top:-5px;
-
 }
 /*B*/
 .B{
+    max-width:320px;
+    height:39%;
     box-shadow:5px 0px 5px 5px #f2f2f2;
-    height:31.5%;
-    width:320px;
     margin:auto;
     border-radius:15px 15px 15px 15px;
 
 }
 .photoblockB{
+    max-width:320px;
     height:65%;
-    width:320px;
+    width:100%;
     object-fit: cover;
     border-radius:15px 15px 0px 0px;
 }
-.activityfigcaptionB{
-    height:35%;
-    width:320px;
+.activityfigcaption{  
+    max-width:320px;
     margin-top:-5px;
 }
 
 /*block3*/
 .block3{
+    max-width:320px; 
     height:544px;
-    width:320px; 
-    margin:0px 35px 0px -10px;
+    margin:0px;
     box-shadow:5px 0px 5px 5px #f2f2f2;
     border-radius:15px 15px 15px 15px;
 }
 
 .photoblock3{
+    max-width:320px;
     height:90%;
-    width:320px;
+    width:100%;
     object-fit: cover;
     border-radius:15px 15px 0px 0px;
 }
-.activityfigcaption3{
-    height:10%;
-    width:320px; 
+.activityfigcaption{  
+    max-width:320px; 
     border-radius:0px 0px 15px 15px;
     margin-top:-5px;
 }
 
 /*block4*/
 .block4{
+    max-width:320px;
     height:544px;
-    width:320px;
-    margin:-20px 2px 0px -30px;
+    margin:0px;
 }
 /*C*/
 .C{
-    height:48.5%;
-    width:320px;
+    max-width:320px;
+    height:49%;
     margin:0px 0px 0px 24.29px;
     box-shadow:5px 0px 5px 5px #f2f2f2;
     border-radius:15px 15px 15px 15px;
 }
 .photoblockC{
+    max-width:320px;
     height:75%;
-    width:320px;
+    width:100%;
     border-radius:15px 15px 0px 0px;
 }
-.activityfigcaptionC{
-    height:25%;
-    width:320px;
+.activityfigcaption{ 
+    max-width:320px;
     border-radius:0px 0px 15px 15px;
     margin-top:-5px;
 }
 /*D*/
 .D{
-    height:48.5%;
-    width:320px;
+    max-width:320px;
+    height:49%;
     margin:0px 0px 0px 24.29px;
     box-shadow:5px 0px 5px 5px #f2f2f2;
     border-radius:15px 15px 15px 15px;
 }
 .photoblockD{
+    max-width:320px;
     height:75%;
-    width:320px;
+    width:100%;
     border-radius:15px 15px 0px 0px;
 }
-.activityfigcaptionD{
-    height:25%;
-    width:320px;
+.activityfigcaption{ 
+    max-width:320px;
     border-radius:0px 0px 15px 15px;
     margin-top:-5px;
 }
@@ -497,14 +484,18 @@ li{
 }
 @media screen and (min-width:768px) and (max-width:992px) {
     .container{
-        margin:0px 20px 0px 20px;
+        padding:0px 20px 0px 20px;
     }
 
     .section1{
         flex-direction:column-reverse;
+        max-width:992px;
     }
     /*accommodation*/
     .accommodation{
+        max-width:992px;
+    }
+    .photo1{
         width:100%;
     }
     .accommodationmain{
@@ -538,7 +529,7 @@ li{
     }
     /*aside*/
     aside{
-        width:100%;
+        max-width:992px;
         margin-bottom:30px;
     }
 
@@ -581,7 +572,7 @@ li{
 }
 @media screen and (max-width:768px){
     .container{
-        margin:0% 15% 0% 15%;
+        padding:0px 20px 0px 20px;
     }
     header{
         width:100%;
@@ -638,12 +629,14 @@ li{
     .fas fa-search{
         background-color: #0065fc;
         display:inline;
+        width:100px;
     }
-    .button{
-        width:50px;
-    }
+    
     .icon{
         margin-bottom:10px;
+    }
+    .filtres{
+        width:100%;
     }
     /*section1*/
     .section1{
@@ -681,10 +674,7 @@ li{
         width:100%;
         background-color:white;   
     }
-    .accommodationmaincard{
-        max-width:100%; 
-        padding:0px;  
-    }
+    
     .accommodationmaincard a{
         margin:0px;
         width:100%;
