@@ -28,33 +28,36 @@ a{
 nav{
     display:flex;
     align-items: center;
-    justify-content:space-between;
-    padding-top:30px;   
-}
-nav a{
-    padding:40px;
-    color: #0065fc;
-    border-top: 3px solid transparent;
-}
-nav a:hover{
-    border-top:3px solid #0065fc;
-}
-.logobooki{
-       width:100px;
+    justify-content:space-between;      
 }
 .hebergact{
     display:flex;
+    justify-content:space-between;
+    width:300px; 
+    color:#0065fc;
+    border-bottom:3px solid transparent;
+    align-items:center;
+}
+.activites:hover{ 
+    color: #0065fc; 
+    border-top:3px solid #0065fc;
 }
 
+.hebergements:hover{  
+    color: #0065fc;
+    border-top:3px solid #0065fc;
+}
+.hebergements{   
+    border-top:3px solid transparent;
+}
 .activites{
-    color:black;
+    color:black; 
+    border-top:3px solid transparent;
 }
-.activites:hover{
-    color:#0065fc;
+.logobooki{
+    width:100px;
 }
-nav .activites a{
-    color:black;
-}
+
 /*research*/
 .fas.fa-map-marker-alt{
     display: flex;
@@ -89,28 +92,22 @@ nav .activites a{
     width:280px;
 }
 
-.button-research{
-    border:none;
-    display:flex;
-    background-color:#0065fc;
-    color:white;
-    font-weight:bold;
-    border-radius:0px 15px 15px 0px;
-    justify-content:center;
-    width:160.8px;
-    height:50.4px;
-    }
-.button{
-    margin:0px;
-    padding:0px;
-    border:none;
-    width:150px;
-    height:50.4px;
+.hideonmobile{
+        border:none; 
+        background-color:#0065fc;
+        color:white;
+        font-weight:bold;
+        border-radius:0px 15px 15px 0px;
+        justify-content:center;
+        width:160.8px;
+        height:50.4px;
+        display:block;
+}
+.showonmobile{
+         display:none;
 }
 
-.fas.fa-search{
-    display:none;
-}
+
 
 /*filtres*/
 
@@ -177,9 +174,9 @@ h2{
     justify-content:space-between;
     max-width:100%; 
 }
-.hmarseille{
+.h2marseille{
     font-size:135%;
-    padding-left:40px;
+    padding-left:20px;
     padding-top:20px;
 }
 .accommodation{
@@ -209,12 +206,10 @@ h2{
     background-color:white;
     border-radius:20px;  
     margin:0px;
-    max-width:265px;
     max-height:240px;     
 }
 .photo1{
     object-fit:cover;
-    max-width:265px;
     max-height:130px;
     width:100%;
     border-radius:20px 20px 0px 0px;
@@ -258,11 +253,10 @@ h3{
     width:411.8px;
     max-height:175.2px;
     margin:0px;
-
 }
 .themostpopularmain{
     display:flex;
-    max-width:411.8px;
+    max-width:;
     max-height:150px;
     margin:-10px 20px 50px 20px;
     background-color:white;
@@ -288,13 +282,14 @@ h3{
 }
 .star2{
     color:#0065fc;
-    margin:20px 0px 20px 20px;
+    margin:10% 0% 20% 8%;
 }
 .greystar{
     color:#f2f2f2;
 }
-
-
+.h3pop{
+    margin-top:10px;
+}
 .afficher{
     display:inline-block;
     margin:50px 0px 0px 30px;
@@ -302,94 +297,74 @@ h3{
     font-size:115%;
 }
 
-/*Section2*/
-/*activity*/
+/*Section 2 activity*/
 .section2{
     max-width:100%;
 }
-
 .activity{
     display:flex;
-    justify-content:space-around;
+    justify-content:space-between;
     max-width:100%;
     height:600px;
 }
-
-
 /*block1*/
 .block1{
-    max-width:320px; 
+    max-width:317px; 
     height:544px;
     margin:0px;
     box-shadow:5px 0px 5px 5px #f2f2f2;
     border-radius:15px 15px 15px 15px;
 }
-
 .photoblock1{
-    max-width:320px;
+    max-width:317px;
     height:90%;
     width:100%;
     object-fit: cover;
     border-radius:15px 15px 0px 0px;
-  
-}
-.activityfigcaption{  
-    max-width:320px; 
-    border-radius:0px 0px 15px 15px;
-    margin-top:-5px;
-    
 }
 /*block2*/
 .block2{
-    width:320px; 
+    width:317px; 
     height:544px;
     margin:0px; 
     border-radius:15px 15px 15px 15px;
 }
 /*A*/
 .A{
-    max-width:320px;
+    max-width:317px;
     height:59%;
     box-shadow:5px 0px 5px 5px #f2f2f2;
-    margin:auto;
+    margin:0px 0px 10px 0px;
     border-radius:15px 15px 15px 15px;
 }
 .photoblockA{
-    height:80%;
-    max-width:320px;
+    height:82%;
+    max-width:317px;
     width:100%;
     object-fit: cover;
     border-radius:15px 15px 0px 0px;
 }
-.activityfigcaption{  
-    max-width:320px;
-    border-radius:0px 0px 15px 15px;
-    margin-top:-5px;
-}
+
 /*B*/
 .B{
-    max-width:320px;
+    max-width:317px;
     height:39%;
     box-shadow:5px 0px 5px 5px #f2f2f2;
-    margin:auto;
+    margin:0px;
     border-radius:15px 15px 15px 15px;
-
+    
 }
 .photoblockB{
-    max-width:320px;
-    height:65%;
+    max-width:317px;
+    height:75%;
     width:100%;
     object-fit: cover;
     border-radius:15px 15px 0px 0px;
-}
-.activityfigcaption{  
-    max-width:320px;
-    margin-top:-5px;
 }
 
 /*block3*/
 .block3{
-    max-width:320px; 
+    max-width:317px; 
     height:544px;
     margin:0px;
     box-shadow:5px 0px 5px 5px #f2f2f2;
@@ -397,64 +372,54 @@ h3{
 }
 
 .photoblock3{
-    max-width:320px;
+    max-width:317px;
     height:90%;
     width:100%;
     object-fit: cover;
     border-radius:15px 15px 0px 0px;
 }
-.activityfigcaption{  
-    max-width:320px; 
-    border-radius:0px 0px 15px 15px;
-    margin-top:-5px;
-}
 
 /*block4*/
 .block4{
-    max-width:320px;
+    
     height:544px;
     margin:0px;
 }
 /*C*/
 .C{
-    max-width:320px;
+    max-width:317px;
     height:49%;
-    margin:0px 0px 0px 24.29px;
+    margin:0px 0px 10px 0px;
     box-shadow:5px 0px 5px 5px #f2f2f2;
     border-radius:15px 15px 15px 15px;
 }
 .photoblockC{
-    max-width:320px;
-    height:75%;
+    max-width:317px;
+    height:80%;
     width:100%;
     border-radius:15px 15px 0px 0px;
 }
-.activityfigcaption{ 
-    max-width:320px;
-    border-radius:0px 0px 15px 15px;
-    margin-top:-5px;
-}
 /*D*/
 .D{
-    max-width:320px;
+    max-width:317px;
     height:49%;
-    margin:0px 0px 0px 24.29px;
+    margin:0px;
     box-shadow:5px 0px 5px 5px #f2f2f2;
     border-radius:15px 15px 15px 15px;
 }
 .photoblockD{
-    max-width:320px;
-    height:75%;
+    max-width:317px;
+    height:80%;
     width:100%;
     border-radius:15px 15px 0px 0px;
 }
-.activityfigcaption{ 
-    max-width:320px;
+.activityfigcaption{  
+    max-width:317px; 
     border-radius:0px 0px 15px 15px;
-    margin-top:-5px;
+    margin-top:-5px;    
 }
-h3{
-    padding-top:10px;
+.h3activity{
+    margin-top:15px;
 }
    
 /*footer*/
@@ -473,7 +438,7 @@ h3{
 }
 
 .h3footer{
-    margin:20px 0px 0px 50px;   
+    margin:20px 0px 0px 40px;   
 }
 ul{
     list-style-type: none;
@@ -490,15 +455,19 @@ li{
     .section1{
         flex-direction:column-reverse;
         max-width:992px;
+        min-width:768px;
     }
     /*accommodation*/
     .accommodation{
-        max-width:992px;
+        width:100%;
+        height:1000px;
+        
     }
     .photo1{
         width:100%;
     }
     .accommodationmain{
+        width:100%;
         margin-bottom:30px;
     }
     .linetablette{
@@ -509,28 +478,34 @@ li{
         flex-direction:column;
         justify-content:space-between;
         width:47%;
-        margin:0px;
-        padding-left:70px;
-    
+        height:750px;
+        margin:20px 0px 0px 90px;
     }
     .line2{
         flex-direction:column;
         justify-content:space-between;
-        width:47%;
-        margin:0px;
-        padding-right:60px;
+        max-width:47%;
+        height:750px;
+        margin:20px 0px 0px 60px;  
+        padding-left:20px;   
     }
-    .hmarseille{
-        padding:0px 0px 0px 85px;
+    .h2marseille{
+        padding:10px 0px 0px 75px;
     }
     .afficher{
-        margin-left:85px;
+        margin-left:90px;
         padding-bottom:50px;
     }
     /*aside*/
-    aside{
-        max-width:992px;
+    .themostpopular{
+        width:100%;
         margin-bottom:30px;
+    }
+    .themostpopulara{
+        max-width:100%;
+    }
+    .themostpopularmain{    
+        max-width:820px;
     }
 
     .themostpop{
@@ -540,23 +515,31 @@ li{
     
     /*activités*/
     .activity{
-        width:100%;
-        height:1200px;
-        display:flex;
-        flex-direction: column;
+        height:1300px;   
+        flex-wrap:wrap;
+        align-content:space-around;
+        margin:0px;
     }
     .activamars{
         margin:30px 0px 0px 70px;
     }
-    .block1AB{
-       display:flex;
-       justify-content:center;     
+    .block1{
+        width:332.233px;
+        margin:0px 0px 0px 50px;
     }
-    .block2CD{
-       display:flex;
-       justify-content:center; 
-       margin-right:35px;     
+    .block2{
+        width:332.233px;
+        margin:0px 40px 0px 0px;
     }
+    .block3{
+        width:332.233px;
+        margin:0px 0px 0px 50px;
+    }
+    .block4{
+        width:332.233px;
+        margin:0px 50px 0px 0px;
+    }
+
     /*footer**/
     .footer{
         max-width:100%;
@@ -582,56 +565,84 @@ li{
         width:100%;
         flex-direction:column;
     }
-    nav a:hover{
-       
-        border-bottom:3px solid #0065fc;
-        border-top:none;
-    }
-    nav a{
-        width:100%;
+    
+    .hebergements{
+        display:flex;
+        width:256px;
+        height:40px;
         border-bottom:3px solid #f2f2f2;
+        border-top:3px solid transparent;
         padding-bottom:10px;
     }
-    .activites a{
-        margin:0px;
+    .activites{
+        display:flex;
+        width:256px;
+        height:40px;
+        border-bottom:3px solid #f2f2f2;
+        border-top:3px solid transparent;
+        padding-bottom:10px;
+        padding-left:40px;
+    }
+    
+    
+    .activites a:hover{  
+         border-bottom:3px solid #0065fc;
+                    
+    }
+    .hebergements a:hover{
+        border-bottom:3px solid #0065fc;
+             
     }
     
     .logobooki{
         margin-bottom:35px;      
     }
     .hebergact{
-        display:flex;
-        width:100%;  
-        margin-right:22px; 
-        margin-bottom:20px;
+
+    }
+        
+    .hebergements{
+       
+    }
+    .activites{
+        
     }
     
     /*titres*/
     h1{
         font-size:25px;
         padding-bottom:10px;
+        max-width:85%;
     }
     .subtitleh1{
         margin-top:5px;
         padding-bottom:30px;
     }
-    h2{
-        font-size:20px;
-    }
+   
     /*research*/
     .research{
-        max-width:90%;
+        width:290px;
         margin-bottom:30px;
     }
-    .button-research{
+    .research-bar{
+        width:200px;
+        
+    }
+    .hideonmobile{
         display:none;
     }
-    .fas fa-search{
-        background-color: #0065fc;
-        display:inline;
-        width:100px;
+    .showonmobile{
+        display:block;
+        border:none; 
+        background-color:#0065fc;
+        color:white;
+        font-weight:bold;
+        border-radius:0px 15px 15px 0px;
+        justify-content:center;
+        width:50px;
+        margin-right:10px;
+        overflow:auto;
     }
-    
     .icon{
         margin-bottom:10px;
     }
@@ -645,7 +656,7 @@ li{
         flex-direction: column-reverse;
     }
     /*aside*/
-    aside{
+    .themostpopular{
         width:100%;
         margin-bottom:20px;
         border-radius:0px;
@@ -655,7 +666,8 @@ li{
         margin-right:30px;
     }
     .themostpopularmain{
-        margin:0px 0px 20px 12px;
+        
+        margin:0px 20px 20px 12px;
     }
     .afficher{
         margin:0px;
@@ -674,119 +686,115 @@ li{
         width:100%;
         background-color:white;   
     }
+    .linetablette{
+        width:100%;
+        height:1650px;
+        margin:0px;
+    }
     
-    .accommodationmaincard a{
+    .line1{
+        flex-direction:column;
+        width:100%;
+        height:800px;
+        margin:0px 0px 20px 0px;
+    }
+    .line2{
+        flex-direction:column;
+        width:100%;
+        height:800px;
+        margin:-20px 0px 0px 0px;      
+    }
+    .accommodationa{
         margin:0px;
         width:100%;
+        height:300px;
     }
     .accommodationmain{
         width:100%;
         margin:10px 0px 10px 0px;
         box-shadow:5px 0px 5px 5px #f2f2f2;
     }
-    .linetablette{
-        width:100%;
-        margin:0px;
-    }
-    .line1{
-        flex-direction:column;
-        margin:0px 0px 20px 0px;
-    }
-    .line2{
-        flex-direction:column;
-        margin:-20px 0px 0px 0px;      
-    }
     .photo1{
         width:100%;
     }
+    .accommodationfigcaption{
+        width:100%;
+    }
     .title2{
-        width:45%;
+        width:100%;
+        font-size:20px;
+        margin-left:10px;
     }
     
     /*section2 activités*/
     .activity{
-        width:100%;
-        height:1830px;
+        width:544.8px;
+        height:1900px;
         display:flex;
-        flex-direction: column;
+        flex-direction:column;
         margin:0px;
     }
     
-    .block1AB{
-        flex-direction:column;
-        margin:0px 0px -20px 0px; 
-        width:100%; 
-    }
-    .block1AB a{
-        margin:0px;
-    }
-    .block2CD{
-        flex-direction:column;
-        margin:-20px 0px 20px 0px; 
-        width:100%;  
-    }
-    .block2CD a{
-        margin:0px;
-    }
     .block1{
-        width:100%; 
+        max-width:100%;
         height:274px;
-        margin:0px 0px 20px 0px;    
-    }
-    .block2{
-        width:100%;
-    }
-    .A{
-        width:100%; 
-        height:274px;
-        margin:20px 0px 20px 0px;  
-    }
-    .B{
-        width:100%; 
-        height:274px;
-        margin:20px 0px 0px 0px;
-    }
-    .block3{
-        width:100%; 
-        height:274px;
-        margin:0px 0px 0px 0px;
-    }
-    .block4{
-        margin:0px;
-        width:100%;
-    }
-    .C{
-        width:100%; 
-        
-        margin:20px 0px 20px 0px;
-    }
-    .D{
-        width:100%; 
-        height:274px;
-        margin:20px 0px 20px 0px;
+        margin:0px;    
     }
     .photoblock1{
-        width:100%;
+        max-width:100%;
         height:80%;
+    }
+    .block2{
+        width:544.8px;
+        margin:20px 0px 0px 0px; 
+    }
+    
+    .A{
+        max-width:100%;
+        height:274px;
+        margin:0px 0px 40px 0px;  
     }
     .photoblockA{
-        width:100%;
+        max-width:100%;
         height:80%;
+    }
+    .B{
+        max-width:100%; 
+        height:274px;
+        margin:0px;
     }
     .photoblockB{
-        width:100%;
+        max-width:100%;
         height:80%;
+    }
+    .block3{
+        max-width:100%; 
+        height:274px;
+        margin:0px;
     }
     .photoblock3{
-        width:100%;
+        max-width:100%;
         height:80%;
+    }
+    .block4{
+        width:544.8px;
+        margin:20px 0px 60px 0px; 
+    }
+    .C{
+        max-width:100%; 
+        margin:0px;
     }
     .photoblockC{
-        width:100%;
+        max-width:100%;
         height:80%;
     }
+    .D{
+        max-width:100%; 
+        
+        margin:20px 0px 60px 0px;
+    }
     .photoblockD{
-        width:100%;
+        max-width:100%;
         height:80%;
     }
     
