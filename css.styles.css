@@ -35,7 +35,6 @@ nav{
     justify-content:space-between;
     width:300px; 
     color:#0065fc;
-    border-bottom:3px solid transparent;
     align-items:center;
 }
 .activites:hover{ 
@@ -46,13 +45,14 @@ nav{
 .hebergements:hover{  
     color: #0065fc;
     border-top:3px solid #0065fc;
-}
-.hebergements{   
+} 
+.hebergements{
     border-top:3px solid transparent;
+
 }
-.activites{
+.activites {
+    border-top:3px solid transparent;
     color:black; 
-    border-top:3px solid transparent;
 }
 .logobooki{
     width:100px;
@@ -256,7 +256,6 @@ h3{
 }
 .themostpopularmain{
     display:flex;
-    max-width:;
     max-height:150px;
     margin:-10px 20px 50px 20px;
     background-color:white;
@@ -324,7 +323,7 @@ h3{
 }
 /*block2*/
 .block2{
-    width:317px; 
+    max-width:317px; 
     height:544px;
     margin:0px; 
     border-radius:15px 15px 15px 15px;
@@ -565,47 +564,52 @@ li{
         width:100%;
         flex-direction:column;
     }
-    
+    .hebergact{
+        width:535.2px;
+    }
+    .hebergements:hover{  
+        color: #0065fc;
+        border-bottom:3px solid #0065fc;
+        border-top: 3px solid transparent;
+    } 
     .hebergements{
         display:flex;
-        width:256px;
+        width:50%;
         height:40px;
-        border-bottom:3px solid #f2f2f2;
-        border-top:3px solid transparent;
-        padding-bottom:10px;
+        border-bottom:3px solid #f2f2f2; 
+        margin:0px 0px 20px 0px;
+        padding-bottom:20px;
     }
+    .hebergements a{
+        width:100%;
+    }
+    .wordheber{
+        margin:0px 0px 16px 80px;
+        padding:0px 0px 0px 20px;
+    }
+    .activites:hover{  
+        color: #0065fc;
+        border-bottom:3px solid #0065fc;
+        border-top: 3px solid transparent;
+    } 
     .activites{
         display:flex;
-        width:256px;
+        width:50%;
         height:40px;
         border-bottom:3px solid #f2f2f2;
-        border-top:3px solid transparent;
-        padding-bottom:10px;
-        padding-left:40px;
+        margin:0px 0px 20px 0px;
+    }
+    .activites a{
+        width:100%;
+    }
+    .wordactiv{
+        margin:0px 0px 0px 80px;
+        padding:0px 0px 0px 20px;
     }
     
-    
-    .activites a:hover{  
-         border-bottom:3px solid #0065fc;
-                    
-    }
-    .hebergements a:hover{
-        border-bottom:3px solid #0065fc;
-             
-    }
     
     .logobooki{
         margin-bottom:35px;      
-    }
-    .hebergact{
-
-    }
-        
-    .hebergements{
-       
-    }
-    .activites{
-        
     }
     
     /*titres*/
@@ -728,31 +732,35 @@ li{
     
     /*section2 activités*/
     .activity{
-        width:544.8px;
-        height:1900px;
+        width:768px;
+        height:1800px;
         display:flex;
         flex-direction:column;
-        margin:0px;
+        margin-left:5px;
     }
-    
+    .h2marseille{
+        margin:0px;
+        padding:0px;
+    }
     .block1{
         max-width:100%;
         height:274px;
-        margin:0px;    
+        margin-top:35px;
+          
     }
     .photoblock1{
         max-width:100%;
         height:80%;
     }
     .block2{
-        width:544.8px;
+        max-width:768px;
         margin:20px 0px 0px 0px; 
     }
     
     .A{
         max-width:100%;
         height:274px;
-        margin:0px 0px 40px 0px;  
+        margin:-40px 0px 0px 0px;  
     }
     .photoblockA{
         max-width:100%;
@@ -761,7 +769,7 @@ li{
     .B{
         max-width:100%; 
         height:274px;
-        margin:0px;
+        margin-top:20px;
     }
     .photoblockB{
         max-width:100%;
@@ -770,19 +778,19 @@ li{
     .block3{
         max-width:100%; 
         height:274px;
-        margin:0px;
+        margin-top:-50px;
     }
     .photoblock3{
         max-width:100%;
         height:80%;
     }
     .block4{
-        width:544.8px;
-        margin:20px 0px 60px 0px; 
+        max-width:768px;
+        
     }
     .C{
         max-width:100%; 
-        margin:0px;
+        margin-top:-40px;
     }
     .photoblockC{
         max-width:100%;
