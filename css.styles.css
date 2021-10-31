@@ -94,22 +94,19 @@ nav{
 }
 
 .hideonmobile{
-        border:none; 
-        background-color:#0065fc;
-        color:white;
-        font-weight:bold;
-        border-radius:0px 15px 15px 0px;
-        justify-content:center;
-        width:160.8px;
-        height:50.4px;
-        display:block;
+    border:none; 
+    background-color:#0065fc;
+    color:white;
+    font-weight:bold;
+    border-radius:0px 15px 15px 0px;
+    justify-content:center;
+    width:160.8px;
+    height:50.4px;
+    display:block;
 }
 .showonmobile{
-         display:none;
+    display:none;
 }
-
-
-
 /*filtres*/
 
 .filtres{
