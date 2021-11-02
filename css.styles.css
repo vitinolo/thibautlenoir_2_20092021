@@ -33,28 +33,51 @@ nav{
 }
 .hebergact{
     display:flex;
-    justify-content:space-between;
-    width:300px; 
+    width:400px; 
     color:#0065fc;
     align-items:center;
 }
-.activites:hover{ 
-    color: #0065fc; 
-    border-top:3px solid #0065fc;
+.hebergements{
+    width:50%;
+    height:40px;
+   
+}
+.hebergements a{
+    display:flex;
+    border-top:3px solid transparent;  
+    height:40px;
+    align-items:center;
 }
 
-.hebergements:hover{  
+.hebergements a:hover{  
     color: #0065fc;
     border-top:3px solid #0065fc;
 } 
-.hebergements{
-    border-top:3px solid transparent;
+.wordheber{
+    width:100%;
+    margin-left:50px;
+}
 
+.activites{
+    width:50%;
+    height:40px;
 }
-.activites {
+.activites a{
+    display:flex;
     border-top:3px solid transparent;
-    color:black; 
+    height:40px;
+    color:black;
+    align-items:center;
+    
 }
+.activites a:hover{ 
+    color: #0065fc; 
+    border-top:3px solid #0065fc;
+}
+.wordactiv{
+    margin-left:50px;
+}
+
 .logobooki{
     width:100px;
 }
@@ -144,6 +167,9 @@ h2{
     justify-content:center;
     margin-left:-3px;
 }
+.efra{
+    margin-left:5px;
+    }
 
 /*icone information*/
 
@@ -248,7 +274,7 @@ h3{
     margin-left:42%;
 }
 .themostpopulara{
-    width:411.8px;
+    max-width:411.8px;
     max-height:175.2px;
     margin:0px;
 }
@@ -304,116 +330,86 @@ h3{
     max-width:100%;
     height:600px;
 }
-/*block1*/
-.block1{
-    max-width:317px; 
+.card{
+    width:317px;
     height:544px;
+    margin-left:5px;
+}
+.card a{
+    margin:0px;
+    padding:0px;
+}
+.figure1{
+    width:100%; 
+    height:100%;
     margin:0px;
     box-shadow:5px 0px 5px 5px #f2f2f2;
     border-radius:15px 15px 15px 15px;
 }
-.photoblock1{
-    max-width:317px;
-    height:90%;
+.figure2{
     width:100%;
-    object-fit: cover;
-    border-radius:15px 15px 0px 0px;
-}
-/*block2*/
-.block2{
-    max-width:317px; 
-    height:544px;
-    margin:0px; 
-    border-radius:15px 15px 15px 15px;
-}
-/*A*/
-.A{
-    max-width:317px;
-    height:59%;
-    box-shadow:5px 0px 5px 5px #f2f2f2;
-    margin:0px 0px 10px 0px;
-    border-radius:15px 15px 15px 15px;
-}
-.photoblockA{
-    height:82%;
-    max-width:317px;
-    width:100%;
-    object-fit: cover;
-    border-radius:15px 15px 0px 0px;
-}
-
-/*B*/
-.B{
-    max-width:317px;
-    height:39%;
+    height:58%;
     box-shadow:5px 0px 5px 5px #f2f2f2;
     margin:0px;
     border-radius:15px 15px 15px 15px;
-    
 }
-.photoblockB{
-    max-width:317px;
-    height:75%;
+.figure3{
     width:100%;
-    object-fit: cover;
-    border-radius:15px 15px 0px 0px;
+    height:38%;
+    box-shadow:5px 0px 5px 5px #f2f2f2;
+    margin:22px 0px 0px 0px;
+    border-radius:15px 15px 15px 15px;  
 }
-
-/*block3*/
-.block3{
-    max-width:317px; 
-    height:544px;
+.figure4{
+    width:100%;
+    height:100%;
+    box-shadow:5px 0px 5px 5px #f2f2f2;
+    border-radius:15px 15px 15px 15px;
+    margin:0px;
+}
+.figure5{
+    width:100%;
+    height:48%;
     margin:0px;
     box-shadow:5px 0px 5px 5px #f2f2f2;
     border-radius:15px 15px 15px 15px;
 }
-
-.photoblock3{
-    max-width:317px;
-    height:90%;
+.figure6{
     width:100%;
-    object-fit: cover;
-    border-radius:15px 15px 0px 0px;
-}
-
-/*block4*/
-.block4{
-    
-    height:544px;
-    margin:0px;
-}
-/*C*/
-.C{
-    max-width:317px;
-    height:49%;
-    margin:0px 0px 10px 0px;
+    height:48%;
+    margin:22px 0px 0px 0px;
     box-shadow:5px 0px 5px 5px #f2f2f2;
     border-radius:15px 15px 15px 15px;
 }
-.photoblockC{
-    max-width:317px;
-    height:80%;
-    width:100%;
-    border-radius:15px 15px 0px 0px;
-}
-/*D*/
-.D{
-    max-width:317px;
-    height:49%;
-    margin:0px;
-    box-shadow:5px 0px 5px 5px #f2f2f2;
-    border-radius:15px 15px 15px 15px;
-}
-.photoblockD{
-    max-width:317px;
-    height:80%;
-    width:100%;
-    border-radius:15px 15px 0px 0px;
-}
-.activityfigcaption{  
-    max-width:317px; 
+.activifigcaption{  
+    width:100%; 
+    height:50px;
     border-radius:0px 0px 15px 15px;
     margin-top:-5px;    
+}
+.photoblock1,.photoblock4{
+    width:100%;
+    height:494px;
+    object-fit: cover;
+    border-radius:15px 15px 0px 0px;
+}
+.photoblock2{
+    width:100%;
+    height:265.52px;
+    object-fit:cover;
+    border-radius:15px 15px 0px 0px;
+}
+.photoblock3{
+    width:100%;
+    height:156.72px;
+    object-fit:cover;
+    border-radius:15px 15px 0px 0px;
+}
+.photoblock5,.photoblock6{
+    width:100%;
+    height:211.12px;
+    object-fit:cover;
+    border-radius:15px 15px 0px 0px;
 }
 .h3activity{
     margin-top:15px;
@@ -451,14 +447,12 @@ li{
 
     .section1{
         flex-direction:column-reverse;
-        max-width:992px;
-        min-width:768px;
+       
     }
     /*accommodation*/
     .accommodation{
         width:100%;
-        height:1000px;
-        
+        height:1000px;  
     }
     .photo1{
         width:100%;
@@ -474,7 +468,7 @@ li{
     .line1{
         flex-direction:column;
         justify-content:space-between;
-        width:47%;
+        max-width:47%;
         height:750px;
         margin:20px 0px 0px 90px;
     }
@@ -520,22 +514,7 @@ li{
     .activamars{
         margin:30px 0px 0px 70px;
     }
-    .block1{
-        width:332.233px;
-        margin:0px 0px 0px 50px;
-    }
-    .block2{
-        width:332.233px;
-        margin:0px 40px 0px 0px;
-    }
-    .block3{
-        width:332.233px;
-        margin:0px 0px 0px 50px;
-    }
-    .block4{
-        width:332.233px;
-        margin:0px 50px 0px 0px;
-    }
+    
 
     /*footer**/
     .footer{
@@ -563,9 +542,9 @@ li{
         flex-direction:column;
     }
     .hebergact{
-        width:535.2px;
+        max-width:535.2px;
     }
-    .hebergements:hover{  
+    .hebergements a:hover{  
         color: #0065fc;
         border-bottom:3px solid #0065fc;
         border-top: 3px solid transparent;
@@ -573,19 +552,19 @@ li{
     .hebergements{
         display:flex;
         width:50%;
-        height:40px;
         border-bottom:3px solid #f2f2f2; 
         margin:0px 0px 20px 0px;
         padding-bottom:20px;
     }
     .hebergements a{
         width:100%;
+        border-bottom: 3px solid transparent;
     }
     .wordheber{
-        margin:0px 0px 16px 80px;
+        margin:0px 0px 0px 40px;
         padding:0px 0px 0px 20px;
     }
-    .activites:hover{  
+    .activites a:hover{  
         color: #0065fc;
         border-bottom:3px solid #0065fc;
         border-top: 3px solid transparent;
@@ -593,15 +572,15 @@ li{
     .activites{
         display:flex;
         width:50%;
-        height:40px;
         border-bottom:3px solid #f2f2f2;
         margin:0px 0px 20px 0px;
     }
     .activites a{
         width:100%;
+        border-bottom: 3px solid transparent;
     }
     .wordactiv{
-        margin:0px 0px 0px 80px;
+        margin:0px 0px 0px 40px;
         padding:0px 0px 0px 20px;
     }
     
@@ -623,11 +602,11 @@ li{
    
     /*research*/
     .research{
-        width:290px;
+        max-width:400px;
         margin-bottom:30px;
     }
     .research-bar{
-        width:200px;
+        max-width:300px;
         
     }
     .hideonmobile{
@@ -639,11 +618,12 @@ li{
         background-color:#0065fc;
         color:white;
         font-weight:bold;
-        border-radius:0px 15px 15px 0px;
+        border-radius:15px 15px 15px 15px;
         justify-content:center;
-        width:50px;
+        width:55px;
         margin-right:10px;
-        overflow:auto;
+        margin-left:-20px;
+        
     }
     .icon{
         margin-bottom:10px;
@@ -718,6 +698,7 @@ li{
     }
     .photo1{
         width:100%;
+        object-fit: cover;
     }
     .accommodationfigcaption{
         width:100%;
@@ -730,8 +711,8 @@ li{
     
     /*section2 activités*/
     .activity{
-        width:768px;
-        height:1800px;
+        max-width:768px;
+        height:1600px;
         display:flex;
         flex-direction:column;
         margin-left:5px;
@@ -740,66 +721,17 @@ li{
         margin:0px;
         padding:0px;
     }
-    .block1{
+    .card{
+        width:100%;
+        height:240px;
+    }
+    .figuremob{
         max-width:100%;
-        height:274px;
-        margin-top:35px;
-          
+        height:100%;
     }
-    .photoblock1{
-        max-width:100%;
-        height:80%;
-    }
-    .block2{
-        max-width:768px;
-        margin:20px 0px 0px 0px; 
-    }
-    
-    .A{
-        max-width:100%;
-        height:274px;
-        margin:-40px 0px 0px 0px;  
-    }
-    .photoblockA{
-        max-width:100%;
-        height:80%;
-    }
-    .B{
-        max-width:100%; 
-        height:274px;
-        margin-top:20px;
-    }
-    .photoblockB{
-        max-width:100%;
-        height:80%;
-    }
-    .block3{
-        max-width:100%; 
-        height:274px;
-        margin-top:-50px;
-    }
-    .photoblock3{
-        max-width:100%;
-        height:80%;
-    }
-    .block4{
-        max-width:768px;
-        
-    }
-    .C{
-        max-width:100%; 
-        margin-top:-40px;
-    }
-    .photoblockC{
-        max-width:100%;
-        height:80%;
-    }
-    .D{
-        max-width:100%; 
-        
-        margin:20px 0px 60px 0px;
-    }
-    .photoblockD{
+
+    .photoblock{
+        object-fit: cover;
         max-width:100%;
         height:80%;
     }
