@@ -45,6 +45,7 @@ nav{
     color:black;
     width:50%;
     justify-content:center;
+    padding-top:10px;
 }
 .items:hover{
     color:#0065fc;
@@ -192,8 +193,7 @@ h2{
     justify-content:space-around;
 }
 .accommodationa{
-    width:265px;
-    
+    width:265px;   
 }
 .accommodationmain{  
     background-color:white;
@@ -226,38 +226,34 @@ h3{
 }
 
 /*aside*/
+
 .themostpopular{
     background-color:#f2f2f2; 
     border-radius:30px;
-    width:33%;
+    width:35%;
 }
 .themostpop{
     display:flex;
     align-items:center;
+    justify-content:space-between;
     font-size:135%;
     margin: 35px 35px 30px 30px;
 } 
 
-/*îcone*/
-.zigzag{
-    margin-left:42%;
-}
 .themostpopulara{
     max-width:411.8px;
-    max-height:175.2px;
-    margin:0px;
+    max-height:175.2px;   
 }
 .themostpopularmain{
     display:flex;
     max-height:150px;
-    margin:-10px 20px 70px 20px;
+    margin:-10px 20px 60px 20px;
     background-color:white;
     border-radius:20px;  
 }
 .photo2{
     object-fit:cover;
     max-width:140px;
-    height:150px;
     width:100%;
     border-radius:20px 0px 0px 20px;
     padding:5px;
@@ -303,84 +299,66 @@ h3{
     width:24%;
     margin-left:5px;
 }
-.card a{
+
+.figuremob{
+    width:100%;
+    box-shadow:5px 0px 5px 5px #f2f2f2;
+    border-radius:15px 15px 15px 15px;
     margin:0px;
-    padding:0px;
 }
 .figure1{
-    width:100%; 
-    height:100%;
-    margin:0px;
-    box-shadow:5px 0px 5px 5px #f2f2f2;
-    border-radius:15px 15px 15px 15px;
+    height:100%;   
 }
 .figure2{
-    width:100%;
-    height:58%;
-    box-shadow:5px 0px 5px 5px #f2f2f2;
-    margin:0px;
-    border-radius:15px 15px 15px 15px;
+    height:59%;
 }
-.figure3{
-    width:100%;
-    height:38%;
-    box-shadow:5px 0px 5px 5px #f2f2f2;
-    margin:20px 0px 0px 0px;
-    border-radius:15px 15px 15px 15px;  
+.figure3{  
+    height:39%;
+    margin:17px 0px 0px 0px;
 }
-.figure4{
-    width:100%;
+.figure4{ 
     height:100%;
-    box-shadow:5px 0px 5px 5px #f2f2f2;
-    border-radius:15px 15px 15px 15px;
-    margin:0px;
 }
 .figure5{
-    width:100%;
-    height:48%;
-    margin:0px;
-    box-shadow:5px 0px 5px 5px #f2f2f2;
-    border-radius:15px 15px 15px 15px;
+    height:49%;
+    
 }
 .figure6{
-    width:100%;
-    height:48%;
-    margin:20px 0px 0px 0px;
-    box-shadow:5px 0px 5px 5px #f2f2f2;
-    border-radius:15px 15px 15px 15px;
+    height:49%;
+    margin:17px 0px 0px 0px;
+    
 }
-.activifigcaption{  
+.activfigcaption{  
     width:100%; 
-    height:50px;
     border-radius:0px 0px 15px 15px;
-    margin-top:-5px;    
+    height:40px; 
 }
 .photoblock1,.photoblock4{
     width:100%;
-    height:100%;
+    height:87%;
     object-fit: cover;
     border-radius:15px 15px 0px 0px;
 }
 .photoblock2{
     width:100%;
-    height:252.52px;
+    height:77%;
     object-fit:cover;
     border-radius:15px 15px 0px 0px;
 }
 .photoblock3{
     width:100%;
-    height:140.72px;
+    height:67%;
     object-fit:cover;
     border-radius:15px 15px 0px 0px;
 }
 .photoblock5,.photoblock6{
     width:100%;
+    height:73%;
     object-fit:cover;
     border-radius:15px 15px 0px 0px;
 }
 .h3activity{
-    margin-top:5px;
-    padding:0px 0px 5px 0px;
+    margin-top:20px;
 }
    
 /*footer*/
@@ -519,6 +497,7 @@ li{
         border-top:3px solid transparent;
         display:flex;
         width:50%;
+        padding-bottom:10px;
     }
     .logobooki{
         margin-bottom:35px;      
@@ -652,6 +631,9 @@ li{
     .h2marseille{
         margin:0px;
         padding:0px;
+    }
+    .h3activity{
+        margin-top: 10px;
     }
     .card{
         width:100%;
