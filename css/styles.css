@@ -241,12 +241,11 @@ h3{
 } 
 
 .themostpopulara{
-    max-width:411.8px;
-    max-height:175.2px;   
+    max-width:411.8px;    
 }
 .themostpopularmain{
     display:flex;
-    max-height:150px;
+    height:23%;
     margin:-10px 20px 60px 20px;
     background-color:white;
     border-radius:20px;  
@@ -413,14 +412,12 @@ li{
         flex-direction:column;
         justify-content:space-between;
         max-width:47%;
-        
         margin:20px 0px 0px 90px;
     }
     .line2{
         flex-direction:column;
         justify-content:space-between;
-        max-width:47%;
-        
+        max-width:47%; 
         margin:20px 0px 0px 60px;  
         padding-left:20px;   
     }
@@ -434,14 +431,13 @@ li{
 
     /*aside*/
     .themostpopular{
-        width:100%;
+        width:100%; 
         margin-bottom:30px;
     }
-    .themostpopulara{
-        max-width:100%;
-    }
-    .themostpopularmain{    
-        max-width:820px;
+    
+    .themostpopularmain{ 
+        margin:20px;
+        height:185px;  
     }
     .themostpop{
         justify-content:space-between;
@@ -561,7 +557,8 @@ li{
         justify-content:space-between;
         margin-right:30px;
     }
-    .themostpopularmain{   
+    .themostpopularmain{ 
+        height:205px;  
         margin:0px 20px 20px 12px;
     }
     .afficher{
