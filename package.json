@@ -1,0 +1,19 @@
+{
+  "name": "thibautlenoir_2_20092021",
+  "version": "1.0.0",
+  "description": "thibautlenoir_2_20092021",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css --style nested "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitinolo/thibautlenoir_2_20092021.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitinolo/thibautlenoir_2_20092021/issues"
+  },
+  "homepage": "https://github.com/vitinolo/thibautlenoir_2_20092021#readme"
+}

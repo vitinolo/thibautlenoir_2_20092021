@@ -224,6 +224,9 @@ h3{
 .pricebold{
     font-weight:bold;
 }
+.afficher{
+    padding-top:20px;
+}
 
 /*aside*/
 
@@ -425,8 +428,7 @@ li{
         padding:10px 0px 0px 75px;
     }
     .afficher{
-        margin-left:90px;
-        padding-bottom:50px;
+        margin:0px 0px 30px 90px;   
     }
 
     /*aside*/
